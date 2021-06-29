@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\datastruct.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\datastruct.dir/objects.a @CMakeFiles\datastruct.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\datastruct.dir/objects.a -Wl,--no-whole-archive -o datastruct.exe -Wl,--out-implib,libdatastruct.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\datastruct.dir\linklibs.rsp
