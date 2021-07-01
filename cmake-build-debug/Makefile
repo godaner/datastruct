@@ -167,6 +167,19 @@ dlinklist/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/build
 .PHONY : dlinklist/fast
 
+#=============================================================================
+# Target rules for targets named sqstack
+
+# Build rule for target.
+sqstack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqstack
+.PHONY : sqstack
+
+# fast build rule for target.
+sqstack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/build
+.PHONY : sqstack/fast
+
 dlinklist.obj: dlinklist.c.obj
 
 .PHONY : dlinklist.obj
@@ -248,6 +261,33 @@ sqlist.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/sqlist.c.s
 .PHONY : sqlist.c.s
 
+sqstack.obj: sqstack.c.obj
+
+.PHONY : sqstack.obj
+
+# target to build an object file
+sqstack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/sqstack.c.obj
+.PHONY : sqstack.c.obj
+
+sqstack.i: sqstack.c.i
+
+.PHONY : sqstack.i
+
+# target to preprocess a source file
+sqstack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/sqstack.c.i
+.PHONY : sqstack.c.i
+
+sqstack.s: sqstack.c.s
+
+.PHONY : sqstack.s
+
+# target to generate assembly for a file
+sqstack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/sqstack.c.s
+.PHONY : sqstack.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -259,6 +299,7 @@ help:
 	@echo ... dlinklist
 	@echo ... linklist
 	@echo ... sqlist
+	@echo ... sqstack
 	@echo ... dlinklist.obj
 	@echo ... dlinklist.i
 	@echo ... dlinklist.s
@@ -268,6 +309,9 @@ help:
 	@echo ... sqlist.obj
 	@echo ... sqlist.i
 	@echo ... sqlist.s
+	@echo ... sqstack.obj
+	@echo ... sqstack.i
+	@echo ... sqstack.s
 .PHONY : help
 
 

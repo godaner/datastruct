@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sqstack.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\sqstack.dir/objects.a @CMakeFiles\sqstack.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\sqstack.dir/objects.a -Wl,--no-whole-archive -o sqstack.exe -Wl,--out-implib,libsqstack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sqstack.dir\linklibs.rsp
