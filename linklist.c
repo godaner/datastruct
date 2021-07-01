@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
+#define TRUE 1==1
+#define FALSE 1!=1
 typedef int ElemType;
 typedef struct LNode {
     ElemType elem;
@@ -45,6 +47,68 @@ int TailInsert(L *l,const int arr[], int size) {
     }
     return 1;
 }
+// Insert 注意，可能插入到第一个
+int Insert(L *l,ElemType  e,int i) {
+    LNode *c = l;
+    int j = 0; // !!!
+    while(c!=NULL && j++!=i-1){
+            c=c->next;
+    }
+    if (c==NULL){
+        return 0;
+    }
+    LNode *n= malloc(sizeof(LNode)*1);
+    n->elem=e;
+    n->next = c->next;
+    c->next = n;
+    return 1;
+}
+int Delete(L *l,int i) {
+    LNode *c = l;
+    int j = 0; // !!!
+    while(c!=NULL && j++!=i-1){
+            c=c->next;
+    }
+    if (c==NULL ||c->next==NULL){
+        return 0;
+    }
+    LNode  *n =c->next;
+    c->next = n->next;
+    free(n);
+    return 1;
+}
+LNode *FindByElem(L *l, ElemType e) {
+    LNode *c = l->next;
+    while (c){
+        if (c->elem == e){
+            return c;
+        }
+        c=c->next;
+    }
+    return NULL;
+}
+LNode *FindByIndex(L *l, int i) {
+    LNode *c = l->next;
+    int j = 1;
+    while (TRUE){
+        if (c== NULL){
+            return c;
+        }
+        if (i==j++){
+            return c;
+        }
+        c=c->next;
+    }
+}
+int Length(L *l) {
+    int len = 0;
+    LNode *c=l;
+    while (c->next){
+        len++;
+        c= c->next;
+    }
+    return len;
+}
 L * Create() {
     L *l=malloc(sizeof(LNode)*1);
     l->elem=0;
@@ -61,5 +125,36 @@ int main() {
     // TailInsert
     TailInsert(l,arr,sizeof(arr)/sizeof(arr[0]));
     Print(l,"TailInsert");
+
+    // FindByIndex
+    LNode *n=FindByIndex(l,3);
+    printf("%d\n",n->elem);
+    Print(l,"FindByIndex");
+
+    // FindByElem
+    n=FindByElem(l,0);
+    printf("%d\n",n->elem);
+    Print(l,"FindByElem");
+
+
+    // Insert
+    ElemType e = 100;
+    Insert(l,e,21);
+    Insert(l,e,1);
+    Print(l,"Insert");
+
+    // Delete
+    Delete(l,1);
+    Delete(l,21);
+    Delete(l,21);
+    Delete(l,0);
+    Print(l,"Delete");
+
+
+    // Length
+    int len=Length(l);
+    printf("Length is: %d\n",len);
+    Print(l,"Length");
+
     return 0;
 }
