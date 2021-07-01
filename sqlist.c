@@ -202,6 +202,28 @@ void BubbleSort(L *l) {
     }
 }
 
+// 1 2 3 4 5 6 7
+// 2,4,5
+//int ReverseArray(int arr[], int left, int right, int size) {
+//    if (size == 0) {
+//        return 0;
+//    }
+//    int tail = size + left - 1; // !!!
+//    for (int i = 0; i < size / 2; ++i) {
+//        swap(&arr[i + left - 1], &arr[tail - 1 - i]);
+//    }
+//    int last = size - right + 1;
+//    for (int i = 0; i < (last) / 2; i++) {
+//        swap(&arr[i], &arr[last - 1 - i]);
+//    }
+//    int s = last;
+//    last = size - last;
+//    for (int i = s; i < (last) / 2; i++) {
+//        swap(&arr[i], &arr[last - 1 - i]);
+//    }
+//    return 1;
+//}
+
 int main() {
     L l;
     ElemType e = 1;
@@ -277,7 +299,7 @@ int main() {
     DeleteSortST(&l, &s, &t);
     Print(&l, "DeleteSortST");
 
-    // DeleteSortST
+    // DeleteSortRepeat
     e = 111;
     Add(&l, &e, 1);
     Add(&l, &e, 1);
@@ -293,10 +315,11 @@ int main() {
 
 
 
-    // DeleteSortST
-    L l1, l2;
+    // MergeSortL1L2
+    L l1, l2, l3;
     Init(&l1);
     Init(&l2);
+    Init(&l3);
     e = 22;
     Add(&l1, &e, 1);
     e = 231;
@@ -311,8 +334,14 @@ int main() {
     Add(&l2, &e, 1);
     SelectSort(&l2);
     Print(&l2, "MergeSortL1L2 l2");
-    L *l3 = MergeSortL1L2(&l1, &l2);
-    Print(l3, "MergeSortL1L2 l3");
+    MergeSortL1L2(&l1, &l2, &l3);
+    Print(&l3, "MergeSortL1L2 l3");
 
+    // MergeSortL1L2
+//    int arr[] = {1, 2, 3, 4, 5, 6, 7};
+//    ReverseArray(arr, 2, 4, 5);
+//    for (int i = 0; i < 7; ++i) { // 1
+//        printf("%d ", arr[i]);
+//    }
     return 0;
 }
