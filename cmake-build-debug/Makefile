@@ -154,6 +154,46 @@ sqlist/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
 .PHONY : sqlist/fast
 
+#=============================================================================
+# Target rules for targets named dlinklist
+
+# Build rule for target.
+dlinklist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dlinklist
+.PHONY : dlinklist
+
+# fast build rule for target.
+dlinklist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/build
+.PHONY : dlinklist/fast
+
+dlinklist.obj: dlinklist.c.obj
+
+.PHONY : dlinklist.obj
+
+# target to build an object file
+dlinklist.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/dlinklist.c.obj
+.PHONY : dlinklist.c.obj
+
+dlinklist.i: dlinklist.c.i
+
+.PHONY : dlinklist.i
+
+# target to preprocess a source file
+dlinklist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/dlinklist.c.i
+.PHONY : dlinklist.c.i
+
+dlinklist.s: dlinklist.c.s
+
+.PHONY : dlinklist.s
+
+# target to generate assembly for a file
+dlinklist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/dlinklist.c.s
+.PHONY : dlinklist.c.s
+
 linklist.obj: linklist.c.obj
 
 .PHONY : linklist.obj
@@ -216,8 +256,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... dlinklist
 	@echo ... linklist
 	@echo ... sqlist
+	@echo ... dlinklist.obj
+	@echo ... dlinklist.i
+	@echo ... dlinklist.s
 	@echo ... linklist.obj
 	@echo ... linklist.i
 	@echo ... linklist.s

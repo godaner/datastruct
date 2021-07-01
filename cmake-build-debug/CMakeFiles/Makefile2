@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/linklist.dir/all
 all: CMakeFiles/sqlist.dir/all
+all: CMakeFiles/dlinklist.dir/all
 
 .PHONY : all
 
@@ -84,6 +85,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/linklist.dir/clean
 clean: CMakeFiles/sqlist.dir/clean
+clean: CMakeFiles/dlinklist.dir/clean
 
 .PHONY : clean
 
@@ -94,7 +96,7 @@ clean: CMakeFiles/sqlist.dir/clean
 CMakeFiles/linklist.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target linklist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target linklist"
 .PHONY : CMakeFiles/linklist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,7 +123,7 @@ CMakeFiles/linklist.dir/clean:
 CMakeFiles/sqlist.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target sqlist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target sqlist"
 .PHONY : CMakeFiles/sqlist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,6 +142,33 @@ sqlist: CMakeFiles/sqlist.dir/rule
 CMakeFiles/sqlist.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/clean
 .PHONY : CMakeFiles/sqlist.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dlinklist.dir
+
+# All Build rule for target.
+CMakeFiles/dlinklist.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target dlinklist"
+.PHONY : CMakeFiles/dlinklist.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dlinklist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dlinklist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/dlinklist.dir/rule
+
+# Convenience name for target.
+dlinklist: CMakeFiles/dlinklist.dir/rule
+
+.PHONY : dlinklist
+
+# clean rule for target.
+CMakeFiles/dlinklist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklist.dir\build.make CMakeFiles/dlinklist.dir/clean
+.PHONY : CMakeFiles/dlinklist.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
