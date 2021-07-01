@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/datastruct.dir/linklist.c.obj"
   "CMakeFiles/datastruct.dir/sqlist.c.obj"
   "datastruct.exe"
   "datastruct.exe.manifest"

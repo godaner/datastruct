@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,17 +129,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named datastruct
+# Target rules for targets named linklist
 
 # Build rule for target.
-datastruct: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 datastruct
-.PHONY : datastruct
+linklist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linklist
+.PHONY : linklist
 
 # fast build rule for target.
-datastruct/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastruct.dir\build.make CMakeFiles/datastruct.dir/build
-.PHONY : datastruct/fast
+linklist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/build
+.PHONY : linklist/fast
+
+#=============================================================================
+# Target rules for targets named sqlist
+
+# Build rule for target.
+sqlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqlist
+.PHONY : sqlist
+
+# fast build rule for target.
+sqlist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
+.PHONY : sqlist/fast
+
+linklist.obj: linklist.c.obj
+
+.PHONY : linklist.obj
+
+# target to build an object file
+linklist.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.c.obj
+.PHONY : linklist.c.obj
+
+linklist.i: linklist.c.i
+
+.PHONY : linklist.i
+
+# target to preprocess a source file
+linklist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.c.i
+.PHONY : linklist.c.i
+
+linklist.s: linklist.c.s
+
+.PHONY : linklist.s
+
+# target to generate assembly for a file
+linklist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.c.s
+.PHONY : linklist.c.s
 
 sqlist.obj: sqlist.c.obj
 
@@ -147,7 +187,7 @@ sqlist.obj: sqlist.c.obj
 
 # target to build an object file
 sqlist.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastruct.dir\build.make CMakeFiles/datastruct.dir/sqlist.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/sqlist.c.obj
 .PHONY : sqlist.c.obj
 
 sqlist.i: sqlist.c.i
@@ -156,7 +196,7 @@ sqlist.i: sqlist.c.i
 
 # target to preprocess a source file
 sqlist.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastruct.dir\build.make CMakeFiles/datastruct.dir/sqlist.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/sqlist.c.i
 .PHONY : sqlist.c.i
 
 sqlist.s: sqlist.c.s
@@ -165,7 +205,7 @@ sqlist.s: sqlist.c.s
 
 # target to generate assembly for a file
 sqlist.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastruct.dir\build.make CMakeFiles/datastruct.dir/sqlist.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/sqlist.c.s
 .PHONY : sqlist.c.s
 
 # Help Target
@@ -176,7 +216,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... datastruct
+	@echo ... linklist
+	@echo ... sqlist
+	@echo ... linklist.obj
+	@echo ... linklist.i
+	@echo ... linklist.s
 	@echo ... sqlist.obj
 	@echo ... sqlist.i
 	@echo ... sqlist.s

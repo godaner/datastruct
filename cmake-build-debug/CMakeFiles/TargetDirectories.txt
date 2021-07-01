@@ -1,3 +1,4 @@
-C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/datastruct.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/linklist.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqlist.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/edit_cache.dir

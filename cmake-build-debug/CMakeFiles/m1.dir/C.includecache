@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/godaner/CLionProjects/datastruct/linklist.c
+C:/Users/godaner/CLionProjects/datastruct/sqlist.c
+malloc.h
+-
 stdio.h
 -
 

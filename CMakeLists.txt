@@ -5,5 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
-add_executable(datastruct
-        sqlist.c)
+add_executable(sqlist sqlist.c)
+add_executable(linklist linklist.c)
+
+
