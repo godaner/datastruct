@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sqlist.dir/DependInfo.cmake"
   "CMakeFiles/dlinklist.dir/DependInfo.cmake"
   "CMakeFiles/sqstack.dir/DependInfo.cmake"
+  "CMakeFiles/sqqueue.dir/DependInfo.cmake"
   )

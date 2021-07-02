@@ -1,8 +1,8 @@
 #include <malloc.h>
 #include <stdio.h>
+#include <u.h>
 
 #define MAXSIZE  100
-typedef int ElemType;
 typedef struct SeqList {
     ElemType *elem;
     int len;

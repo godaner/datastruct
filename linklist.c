@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
+#include <u.h>
 
-#define TRUE 1==1
-#define FALSE 1!=1
-typedef int ElemType;
 typedef struct LNode {
     ElemType elem;
     struct LNode *next;

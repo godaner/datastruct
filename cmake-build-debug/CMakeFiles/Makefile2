@@ -75,6 +75,7 @@ all: CMakeFiles/linklist.dir/all
 all: CMakeFiles/sqlist.dir/all
 all: CMakeFiles/dlinklist.dir/all
 all: CMakeFiles/sqstack.dir/all
+all: CMakeFiles/sqqueue.dir/all
 
 .PHONY : all
 
@@ -88,6 +89,7 @@ clean: CMakeFiles/linklist.dir/clean
 clean: CMakeFiles/sqlist.dir/clean
 clean: CMakeFiles/dlinklist.dir/clean
 clean: CMakeFiles/sqstack.dir/clean
+clean: CMakeFiles/sqqueue.dir/clean
 
 .PHONY : clean
 
@@ -179,7 +181,7 @@ CMakeFiles/dlinklist.dir/clean:
 CMakeFiles/sqstack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target sqstack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target sqstack"
 .PHONY : CMakeFiles/sqstack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -198,6 +200,33 @@ sqstack: CMakeFiles/sqstack.dir/rule
 CMakeFiles/sqstack.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/clean
 .PHONY : CMakeFiles/sqstack.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sqqueue.dir
+
+# All Build rule for target.
+CMakeFiles/sqqueue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target sqqueue"
+.PHONY : CMakeFiles/sqqueue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sqqueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sqqueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sqqueue.dir/rule
+
+# Convenience name for target.
+sqqueue: CMakeFiles/sqqueue.dir/rule
+
+.PHONY : sqqueue
+
+# clean rule for target.
+CMakeFiles/sqqueue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/clean
+.PHONY : CMakeFiles/sqqueue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

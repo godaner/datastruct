@@ -1,9 +1,7 @@
 #include <stdio.h>
+#include <u.h>
 #include <malloc.h>
 
-#define TRUE 1==1
-#define FALSE 1!=1
-typedef int ElemType;
 // DLNode 查找等和单链表相同，删除插入不同
 typedef struct DLNode {
     ElemType elem;

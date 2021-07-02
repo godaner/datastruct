@@ -180,6 +180,19 @@ sqstack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/build
 .PHONY : sqstack/fast
 
+#=============================================================================
+# Target rules for targets named sqqueue
+
+# Build rule for target.
+sqqueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqqueue
+.PHONY : sqqueue
+
+# fast build rule for target.
+sqqueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/build
+.PHONY : sqqueue/fast
+
 dlinklist.obj: dlinklist.c.obj
 
 .PHONY : dlinklist.obj
@@ -261,6 +274,33 @@ sqlist.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/sqlist.c.s
 .PHONY : sqlist.c.s
 
+sqqueue.obj: sqqueue.c.obj
+
+.PHONY : sqqueue.obj
+
+# target to build an object file
+sqqueue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/sqqueue.c.obj
+.PHONY : sqqueue.c.obj
+
+sqqueue.i: sqqueue.c.i
+
+.PHONY : sqqueue.i
+
+# target to preprocess a source file
+sqqueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/sqqueue.c.i
+.PHONY : sqqueue.c.i
+
+sqqueue.s: sqqueue.c.s
+
+.PHONY : sqqueue.s
+
+# target to generate assembly for a file
+sqqueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/sqqueue.c.s
+.PHONY : sqqueue.c.s
+
 sqstack.obj: sqstack.c.obj
 
 .PHONY : sqstack.obj
@@ -299,6 +339,7 @@ help:
 	@echo ... dlinklist
 	@echo ... linklist
 	@echo ... sqlist
+	@echo ... sqqueue
 	@echo ... sqstack
 	@echo ... dlinklist.obj
 	@echo ... dlinklist.i
@@ -309,6 +350,9 @@ help:
 	@echo ... sqlist.obj
 	@echo ... sqlist.i
 	@echo ... sqlist.s
+	@echo ... sqqueue.obj
+	@echo ... sqqueue.i
+	@echo ... sqqueue.s
 	@echo ... sqstack.obj
 	@echo ... sqstack.i
 	@echo ... sqstack.s

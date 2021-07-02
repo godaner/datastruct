@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <malloc.h>
+#include <u.h>
 
 #define  MAXSIZE 100
 
-typedef int ElementType;
 typedef struct SqStack {
-    ElementType *elem;
+    ElemType *elem;
     int top;
 } SqStack, S;
 
@@ -14,7 +14,7 @@ int Init(S *s) {
     if (s == NULL) {
         return 0;
     }
-    s->elem = malloc(sizeof(ElementType) * MAXSIZE);
+    s->elem = malloc(sizeof(ElemType) * MAXSIZE);
     s->top = 0;
     return 1;
 }
@@ -40,7 +40,7 @@ int StackEmpty(S *s) {
     return 0;
 }
 
-int Pop(S *s, ElementType *e) {
+int Pop(S *s, ElemType *e) {
     if (StackEmpty(s)) {
         return 0;
     }
@@ -48,7 +48,7 @@ int Pop(S *s, ElementType *e) {
     return 1;
 }
 
-int Get(S *s, ElementType *e) {
+int Get(S *s, ElemType *e) {
     if (StackEmpty(s)) {
         return 0;
     }
@@ -57,7 +57,7 @@ int Get(S *s, ElementType *e) {
 }
 
 
-int Push(S *s, ElementType e) {
+int Push(S *s, ElemType e) {
     if (s == NULL || Length(s) == MAXSIZE) { // !!!
         return 0;
     }
@@ -67,13 +67,13 @@ int Push(S *s, ElementType e) {
 
 int main() {
     S s;
-    ElementType r = 0;
+    ElemType r = 0;
     // Init
     Init(&s);
     Print(&s, "Init");
 
     // Push
-    ElementType e = 1;
+    ElemType e = 1;
     Push(&s, e);
     e = 2;
     Push(&s, e);
