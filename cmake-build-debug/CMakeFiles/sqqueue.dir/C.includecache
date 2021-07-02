@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/sqqueue.c
+u.h
+-
+malloc.h
+-
+stdio.h
+-
+
