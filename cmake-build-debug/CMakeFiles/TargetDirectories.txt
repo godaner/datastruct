@@ -4,4 +4,5 @@ C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqlist.di
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/dlinklist.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqstack.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqqueue.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lqueue.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/edit_cache.dir

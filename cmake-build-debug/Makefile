@@ -193,6 +193,19 @@ sqqueue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/build
 .PHONY : sqqueue/fast
 
+#=============================================================================
+# Target rules for targets named lqueue
+
+# Build rule for target.
+lqueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lqueue
+.PHONY : lqueue
+
+# fast build rule for target.
+lqueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueue.dir\build.make CMakeFiles/lqueue.dir/build
+.PHONY : lqueue/fast
+
 dlinklist.obj: dlinklist.c.obj
 
 .PHONY : dlinklist.obj
@@ -246,6 +259,33 @@ linklist.s: linklist.c.s
 linklist.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.c.s
 .PHONY : linklist.c.s
+
+lqueue.obj: lqueue.c.obj
+
+.PHONY : lqueue.obj
+
+# target to build an object file
+lqueue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueue.dir\build.make CMakeFiles/lqueue.dir/lqueue.c.obj
+.PHONY : lqueue.c.obj
+
+lqueue.i: lqueue.c.i
+
+.PHONY : lqueue.i
+
+# target to preprocess a source file
+lqueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueue.dir\build.make CMakeFiles/lqueue.dir/lqueue.c.i
+.PHONY : lqueue.c.i
+
+lqueue.s: lqueue.c.s
+
+.PHONY : lqueue.s
+
+# target to generate assembly for a file
+lqueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueue.dir\build.make CMakeFiles/lqueue.dir/lqueue.c.s
+.PHONY : lqueue.c.s
 
 sqlist.obj: sqlist.c.obj
 
@@ -338,6 +378,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... dlinklist
 	@echo ... linklist
+	@echo ... lqueue
 	@echo ... sqlist
 	@echo ... sqqueue
 	@echo ... sqstack
@@ -347,6 +388,9 @@ help:
 	@echo ... linklist.obj
 	@echo ... linklist.i
 	@echo ... linklist.s
+	@echo ... lqueue.obj
+	@echo ... lqueue.i
+	@echo ... lqueue.s
 	@echo ... sqlist.obj
 	@echo ... sqlist.i
 	@echo ... sqlist.s
