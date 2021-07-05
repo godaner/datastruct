@@ -75,28 +75,28 @@ include CMakeFiles/lstack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lstack.dir/flags.make
 
-CMakeFiles/lstack.dir/lstack.c.obj: CMakeFiles/lstack.dir/flags.make
-CMakeFiles/lstack.dir/lstack.c.obj: CMakeFiles/lstack.dir/includes_C.rsp
-CMakeFiles/lstack.dir/lstack.c.obj: ../lstack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lstack.dir/lstack.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lstack.dir\lstack.c.obj -c C:\Users\godaner\CLionProjects\datastruct\lstack.c
+CMakeFiles/lstack.dir/lstackmain.c.obj: CMakeFiles/lstack.dir/flags.make
+CMakeFiles/lstack.dir/lstackmain.c.obj: CMakeFiles/lstack.dir/includes_C.rsp
+CMakeFiles/lstack.dir/lstackmain.c.obj: ../lstackmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lstack.dir/lstackmain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lstack.dir\lstackmain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\lstackmain.c
 
-CMakeFiles/lstack.dir/lstack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lstack.dir/lstack.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\lstack.c > CMakeFiles\lstack.dir\lstack.c.i
+CMakeFiles/lstack.dir/lstackmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lstack.dir/lstackmain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\lstackmain.c > CMakeFiles\lstack.dir\lstackmain.c.i
 
-CMakeFiles/lstack.dir/lstack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lstack.dir/lstack.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\lstack.c -o CMakeFiles\lstack.dir\lstack.c.s
+CMakeFiles/lstack.dir/lstackmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lstack.dir/lstackmain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\lstackmain.c -o CMakeFiles\lstack.dir\lstackmain.c.s
 
 # Object files for target lstack
 lstack_OBJECTS = \
-"CMakeFiles/lstack.dir/lstack.c.obj"
+"CMakeFiles/lstack.dir/lstackmain.c.obj"
 
 # External object files for target lstack
 lstack_EXTERNAL_OBJECTS =
 
-lstack.exe: CMakeFiles/lstack.dir/lstack.c.obj
+lstack.exe: CMakeFiles/lstack.dir/lstackmain.c.obj
 lstack.exe: CMakeFiles/lstack.dir/build.make
 lstack.exe: CMakeFiles/lstack.dir/linklibs.rsp
 lstack.exe: CMakeFiles/lstack.dir/objects1.rsp

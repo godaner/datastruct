@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/validatebracket.dir/validatebracket.c.obj"
+  "CMakeFiles/validatebracket.dir/validatebracketmain.c.obj"
   "libvalidatebracket.dll.a"
   "validatebracket.exe"
   "validatebracket.exe.manifest"

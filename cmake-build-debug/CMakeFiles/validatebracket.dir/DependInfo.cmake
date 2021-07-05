@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/godaner/CLionProjects/datastruct/validatebracket.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/validatebracket.dir/validatebracket.c.obj"
+  "C:/Users/godaner/CLionProjects/datastruct/validatebracketmain.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/validatebracket.dir/validatebracketmain.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

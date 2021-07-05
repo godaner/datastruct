@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sqqueue.dir/sqqueue.c.obj"
+  "CMakeFiles/sqqueue.dir/sqqueuemain.c.obj"
   "libsqqueue.dll.a"
   "sqqueue.exe"
   "sqqueue.exe.manifest"

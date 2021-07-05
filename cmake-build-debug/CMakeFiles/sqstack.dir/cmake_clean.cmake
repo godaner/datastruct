@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sqstack.dir/sqstack.c.obj"
+  "CMakeFiles/sqstack.dir/sqstackmain.c.obj"
   "libsqstack.dll.a"
   "sqstack.exe"
   "sqstack.exe.manifest"

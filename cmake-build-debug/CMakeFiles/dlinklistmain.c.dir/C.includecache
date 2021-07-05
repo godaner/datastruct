@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dlinklist.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/dlinklistmain.c
+stdio.h
+-
+u.h
+-
+dlinklist.c
+-
+

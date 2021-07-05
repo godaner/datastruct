@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sqlistmain.c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\sqlistmain.c.dir/objects.a @CMakeFiles\sqlistmain.c.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\sqlistmain.c.dir/objects.a -Wl,--no-whole-archive -o sqlistmain.c.exe -Wl,--out-implib,libsqlistmain.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sqlistmain.c.dir\linklibs.rsp

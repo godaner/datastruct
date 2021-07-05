@@ -75,28 +75,28 @@ include CMakeFiles/lqueue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lqueue.dir/flags.make
 
-CMakeFiles/lqueue.dir/lqueue.c.obj: CMakeFiles/lqueue.dir/flags.make
-CMakeFiles/lqueue.dir/lqueue.c.obj: CMakeFiles/lqueue.dir/includes_C.rsp
-CMakeFiles/lqueue.dir/lqueue.c.obj: ../lqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lqueue.dir/lqueue.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lqueue.dir\lqueue.c.obj -c C:\Users\godaner\CLionProjects\datastruct\lqueue.c
+CMakeFiles/lqueue.dir/lqueuemain.c.obj: CMakeFiles/lqueue.dir/flags.make
+CMakeFiles/lqueue.dir/lqueuemain.c.obj: CMakeFiles/lqueue.dir/includes_C.rsp
+CMakeFiles/lqueue.dir/lqueuemain.c.obj: ../lqueuemain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lqueue.dir/lqueuemain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lqueue.dir\lqueuemain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\lqueuemain.c
 
-CMakeFiles/lqueue.dir/lqueue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lqueue.dir/lqueue.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\lqueue.c > CMakeFiles\lqueue.dir\lqueue.c.i
+CMakeFiles/lqueue.dir/lqueuemain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lqueue.dir/lqueuemain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\lqueuemain.c > CMakeFiles\lqueue.dir\lqueuemain.c.i
 
-CMakeFiles/lqueue.dir/lqueue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lqueue.dir/lqueue.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\lqueue.c -o CMakeFiles\lqueue.dir\lqueue.c.s
+CMakeFiles/lqueue.dir/lqueuemain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lqueue.dir/lqueuemain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\lqueuemain.c -o CMakeFiles\lqueue.dir\lqueuemain.c.s
 
 # Object files for target lqueue
 lqueue_OBJECTS = \
-"CMakeFiles/lqueue.dir/lqueue.c.obj"
+"CMakeFiles/lqueue.dir/lqueuemain.c.obj"
 
 # External object files for target lqueue
 lqueue_EXTERNAL_OBJECTS =
 
-lqueue.exe: CMakeFiles/lqueue.dir/lqueue.c.obj
+lqueue.exe: CMakeFiles/lqueue.dir/lqueuemain.c.obj
 lqueue.exe: CMakeFiles/lqueue.dir/build.make
 lqueue.exe: CMakeFiles/lqueue.dir/linklibs.rsp
 lqueue.exe: CMakeFiles/lqueue.dir/objects1.rsp

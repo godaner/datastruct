@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/godaner/CLionProjects/datastruct/sqqueue.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqqueue.dir/sqqueue.c.obj"
+  "C:/Users/godaner/CLionProjects/datastruct/sqqueuemain.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqqueue.dir/sqqueuemain.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

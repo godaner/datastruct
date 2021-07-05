@@ -75,28 +75,28 @@ include CMakeFiles/dlinklist.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dlinklist.dir/flags.make
 
-CMakeFiles/dlinklist.dir/dlinklist.c.obj: CMakeFiles/dlinklist.dir/flags.make
-CMakeFiles/dlinklist.dir/dlinklist.c.obj: CMakeFiles/dlinklist.dir/includes_C.rsp
-CMakeFiles/dlinklist.dir/dlinklist.c.obj: ../dlinklist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dlinklist.dir/dlinklist.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dlinklist.dir\dlinklist.c.obj -c C:\Users\godaner\CLionProjects\datastruct\dlinklist.c
+CMakeFiles/dlinklist.dir/dlinklistmain.c.obj: CMakeFiles/dlinklist.dir/flags.make
+CMakeFiles/dlinklist.dir/dlinklistmain.c.obj: CMakeFiles/dlinklist.dir/includes_C.rsp
+CMakeFiles/dlinklist.dir/dlinklistmain.c.obj: ../dlinklistmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dlinklist.dir/dlinklistmain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dlinklist.dir\dlinklistmain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\dlinklistmain.c
 
-CMakeFiles/dlinklist.dir/dlinklist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlinklist.dir/dlinklist.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\dlinklist.c > CMakeFiles\dlinklist.dir\dlinklist.c.i
+CMakeFiles/dlinklist.dir/dlinklistmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlinklist.dir/dlinklistmain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\dlinklistmain.c > CMakeFiles\dlinklist.dir\dlinklistmain.c.i
 
-CMakeFiles/dlinklist.dir/dlinklist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlinklist.dir/dlinklist.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\dlinklist.c -o CMakeFiles\dlinklist.dir\dlinklist.c.s
+CMakeFiles/dlinklist.dir/dlinklistmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlinklist.dir/dlinklistmain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\dlinklistmain.c -o CMakeFiles\dlinklist.dir\dlinklistmain.c.s
 
 # Object files for target dlinklist
 dlinklist_OBJECTS = \
-"CMakeFiles/dlinklist.dir/dlinklist.c.obj"
+"CMakeFiles/dlinklist.dir/dlinklistmain.c.obj"
 
 # External object files for target dlinklist
 dlinklist_EXTERNAL_OBJECTS =
 
-dlinklist.exe: CMakeFiles/dlinklist.dir/dlinklist.c.obj
+dlinklist.exe: CMakeFiles/dlinklist.dir/dlinklistmain.c.obj
 dlinklist.exe: CMakeFiles/dlinklist.dir/build.make
 dlinklist.exe: CMakeFiles/dlinklist.dir/linklibs.rsp
 dlinklist.exe: CMakeFiles/dlinklist.dir/objects1.rsp

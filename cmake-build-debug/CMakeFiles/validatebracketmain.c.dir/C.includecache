@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lstack.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+
+../u.h
+
+../validatebracket.c
+u.h
+-
+lstack.c
+-
+
+C:/Users/godaner/CLionProjects/datastruct/validatebracketmain.c
+stdio.h
+-
+u.h
+-
+validatebracket.c
+-
+

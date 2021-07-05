@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lstack.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/lstackmain.c
+stdio.h
+-
+u.h
+-
+lstack.c
+-
+

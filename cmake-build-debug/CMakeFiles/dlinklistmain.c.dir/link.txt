@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\dlinklistmain.c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\dlinklistmain.c.dir/objects.a @CMakeFiles\dlinklistmain.c.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\dlinklistmain.c.dir/objects.a -Wl,--no-whole-archive -o dlinklistmain.c.exe -Wl,--out-implib,libdlinklistmain.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dlinklistmain.c.dir\linklibs.rsp

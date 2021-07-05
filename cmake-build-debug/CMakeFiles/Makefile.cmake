@@ -46,12 +46,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/sqlist.dir/DependInfo.cmake"
-  "CMakeFiles/linklist.dir/DependInfo.cmake"
-  "CMakeFiles/validatebracket.dir/DependInfo.cmake"
-  "CMakeFiles/lstack.dir/DependInfo.cmake"
-  "CMakeFiles/dlinklist.dir/DependInfo.cmake"
-  "CMakeFiles/sqstack.dir/DependInfo.cmake"
-  "CMakeFiles/sqqueue.dir/DependInfo.cmake"
-  "CMakeFiles/lqueue.dir/DependInfo.cmake"
+  "CMakeFiles/sqlistmain.c.dir/DependInfo.cmake"
+  "CMakeFiles/linklistmain.c.dir/DependInfo.cmake"
+  "CMakeFiles/validatebracketmain.c.dir/DependInfo.cmake"
+  "CMakeFiles/lstackmain.c.dir/DependInfo.cmake"
+  "CMakeFiles/dlinklistmain.c.dir/DependInfo.cmake"
+  "CMakeFiles/sqstackmain.c.dir/DependInfo.cmake"
+  "CMakeFiles/sqqueuemain.c.dir/DependInfo.cmake"
+  "CMakeFiles/lqueuemain.c.dir/DependInfo.cmake"
   )

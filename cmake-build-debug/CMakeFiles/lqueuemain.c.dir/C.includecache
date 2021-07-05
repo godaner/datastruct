@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lqueue.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/lqueuemain.c
+stdio.h
+-
+u.h
+-
+lqueue.c
+-
+

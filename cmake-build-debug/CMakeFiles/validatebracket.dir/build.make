@@ -75,28 +75,28 @@ include CMakeFiles/validatebracket.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/validatebracket.dir/flags.make
 
-CMakeFiles/validatebracket.dir/validatebracket.c.obj: CMakeFiles/validatebracket.dir/flags.make
-CMakeFiles/validatebracket.dir/validatebracket.c.obj: CMakeFiles/validatebracket.dir/includes_C.rsp
-CMakeFiles/validatebracket.dir/validatebracket.c.obj: ../validatebracket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/validatebracket.dir/validatebracket.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\validatebracket.dir\validatebracket.c.obj -c C:\Users\godaner\CLionProjects\datastruct\validatebracket.c
+CMakeFiles/validatebracket.dir/validatebracketmain.c.obj: CMakeFiles/validatebracket.dir/flags.make
+CMakeFiles/validatebracket.dir/validatebracketmain.c.obj: CMakeFiles/validatebracket.dir/includes_C.rsp
+CMakeFiles/validatebracket.dir/validatebracketmain.c.obj: ../validatebracketmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/validatebracket.dir/validatebracketmain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\validatebracket.dir\validatebracketmain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\validatebracketmain.c
 
-CMakeFiles/validatebracket.dir/validatebracket.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/validatebracket.dir/validatebracket.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\validatebracket.c > CMakeFiles\validatebracket.dir\validatebracket.c.i
+CMakeFiles/validatebracket.dir/validatebracketmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/validatebracket.dir/validatebracketmain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\validatebracketmain.c > CMakeFiles\validatebracket.dir\validatebracketmain.c.i
 
-CMakeFiles/validatebracket.dir/validatebracket.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/validatebracket.dir/validatebracket.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\validatebracket.c -o CMakeFiles\validatebracket.dir\validatebracket.c.s
+CMakeFiles/validatebracket.dir/validatebracketmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/validatebracket.dir/validatebracketmain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\validatebracketmain.c -o CMakeFiles\validatebracket.dir\validatebracketmain.c.s
 
 # Object files for target validatebracket
 validatebracket_OBJECTS = \
-"CMakeFiles/validatebracket.dir/validatebracket.c.obj"
+"CMakeFiles/validatebracket.dir/validatebracketmain.c.obj"
 
 # External object files for target validatebracket
 validatebracket_EXTERNAL_OBJECTS =
 
-validatebracket.exe: CMakeFiles/validatebracket.dir/validatebracket.c.obj
+validatebracket.exe: CMakeFiles/validatebracket.dir/validatebracketmain.c.obj
 validatebracket.exe: CMakeFiles/validatebracket.dir/build.make
 validatebracket.exe: CMakeFiles/validatebracket.dir/linklibs.rsp
 validatebracket.exe: CMakeFiles/validatebracket.dir/objects1.rsp

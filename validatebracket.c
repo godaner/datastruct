@@ -1,16 +1,31 @@
-#include <stdio.h>
 #include <u.h>
 #include <lstack.c>
 
-bool ValidateBracket(char *bk) {
+bool ValidateBracket(S *s, const char *bk, int size) {
+    ElemType pe = 0;
+    for (int i = 0; i < size; i++) {
+        if (bk[i] == '{' || bk[i] == '(' || bk[i] == '[') {
+            Push(s, bk[i]);
+            continue;
+        }
+        if (bk[i] == '}' || bk[i] == ')' || bk[i] == ']') {
+            bool suc = Pop(s, &pe);
+            if (!suc) {
+                return false;
+            }
+            if (bk[i] == '}' && pe != '{') {
+                return false;
+            }
+            if (bk[i] == ']' && pe != '[') {
+                return false;
+            }
 
-    return false;
-}
+            if (bk[i] == ')' && pe != '(') {
+                return false;
+            }
+            continue;
+        }
 
-int main() {
-    S s;
-    char cs[] = "{({}[[][]]{})}";
-    bool r = ValidateBracket(cs);
-    printf("%d\n", r);
-    return 0;
+    }
+    return StackEmpty(s);
 }

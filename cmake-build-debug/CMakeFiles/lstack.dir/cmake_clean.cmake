@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lstack.dir/lstack.c.obj"
+  "CMakeFiles/lstack.dir/lstackmain.c.obj"
   "liblstack.dll.a"
   "lstack.exe"
   "lstack.exe.manifest"

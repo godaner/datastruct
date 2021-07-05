@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/godaner/CLionProjects/datastruct/lstack.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lstack.dir/lstack.c.obj"
+  "C:/Users/godaner/CLionProjects/datastruct/lstackmain.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lstack.dir/lstackmain.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

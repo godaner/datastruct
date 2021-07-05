@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../linklist.c
+stdio.h
+-
+malloc.h
+-
+u.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/linklistmain.c
+stdio.h
+-
+u.h
+-
+linklist.c
+-
+

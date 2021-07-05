@@ -75,28 +75,28 @@ include CMakeFiles/sqstack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sqstack.dir/flags.make
 
-CMakeFiles/sqstack.dir/sqstack.c.obj: CMakeFiles/sqstack.dir/flags.make
-CMakeFiles/sqstack.dir/sqstack.c.obj: CMakeFiles/sqstack.dir/includes_C.rsp
-CMakeFiles/sqstack.dir/sqstack.c.obj: ../sqstack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sqstack.dir/sqstack.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sqstack.dir\sqstack.c.obj -c C:\Users\godaner\CLionProjects\datastruct\sqstack.c
+CMakeFiles/sqstack.dir/sqstackmain.c.obj: CMakeFiles/sqstack.dir/flags.make
+CMakeFiles/sqstack.dir/sqstackmain.c.obj: CMakeFiles/sqstack.dir/includes_C.rsp
+CMakeFiles/sqstack.dir/sqstackmain.c.obj: ../sqstackmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sqstack.dir/sqstackmain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sqstack.dir\sqstackmain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\sqstackmain.c
 
-CMakeFiles/sqstack.dir/sqstack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sqstack.dir/sqstack.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\sqstack.c > CMakeFiles\sqstack.dir\sqstack.c.i
+CMakeFiles/sqstack.dir/sqstackmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sqstack.dir/sqstackmain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\sqstackmain.c > CMakeFiles\sqstack.dir\sqstackmain.c.i
 
-CMakeFiles/sqstack.dir/sqstack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sqstack.dir/sqstack.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\sqstack.c -o CMakeFiles\sqstack.dir\sqstack.c.s
+CMakeFiles/sqstack.dir/sqstackmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sqstack.dir/sqstackmain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\sqstackmain.c -o CMakeFiles\sqstack.dir\sqstackmain.c.s
 
 # Object files for target sqstack
 sqstack_OBJECTS = \
-"CMakeFiles/sqstack.dir/sqstack.c.obj"
+"CMakeFiles/sqstack.dir/sqstackmain.c.obj"
 
 # External object files for target sqstack
 sqstack_EXTERNAL_OBJECTS =
 
-sqstack.exe: CMakeFiles/sqstack.dir/sqstack.c.obj
+sqstack.exe: CMakeFiles/sqstack.dir/sqstackmain.c.obj
 sqstack.exe: CMakeFiles/sqstack.dir/build.make
 sqstack.exe: CMakeFiles/sqstack.dir/linklibs.rsp
 sqstack.exe: CMakeFiles/sqstack.dir/objects1.rsp

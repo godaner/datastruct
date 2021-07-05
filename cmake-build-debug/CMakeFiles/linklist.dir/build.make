@@ -75,28 +75,28 @@ include CMakeFiles/linklist.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linklist.dir/flags.make
 
-CMakeFiles/linklist.dir/linklist.c.obj: CMakeFiles/linklist.dir/flags.make
-CMakeFiles/linklist.dir/linklist.c.obj: CMakeFiles/linklist.dir/includes_C.rsp
-CMakeFiles/linklist.dir/linklist.c.obj: ../linklist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linklist.dir/linklist.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\linklist.dir\linklist.c.obj -c C:\Users\godaner\CLionProjects\datastruct\linklist.c
+CMakeFiles/linklist.dir/linklistmain.c.obj: CMakeFiles/linklist.dir/flags.make
+CMakeFiles/linklist.dir/linklistmain.c.obj: CMakeFiles/linklist.dir/includes_C.rsp
+CMakeFiles/linklist.dir/linklistmain.c.obj: ../linklistmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linklist.dir/linklistmain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\linklist.dir\linklistmain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\linklistmain.c
 
-CMakeFiles/linklist.dir/linklist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linklist.dir/linklist.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\linklist.c > CMakeFiles\linklist.dir\linklist.c.i
+CMakeFiles/linklist.dir/linklistmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linklist.dir/linklistmain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\linklistmain.c > CMakeFiles\linklist.dir\linklistmain.c.i
 
-CMakeFiles/linklist.dir/linklist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linklist.dir/linklist.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\linklist.c -o CMakeFiles\linklist.dir\linklist.c.s
+CMakeFiles/linklist.dir/linklistmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linklist.dir/linklistmain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\linklistmain.c -o CMakeFiles\linklist.dir\linklistmain.c.s
 
 # Object files for target linklist
 linklist_OBJECTS = \
-"CMakeFiles/linklist.dir/linklist.c.obj"
+"CMakeFiles/linklist.dir/linklistmain.c.obj"
 
 # External object files for target linklist
 linklist_EXTERNAL_OBJECTS =
 
-linklist.exe: CMakeFiles/linklist.dir/linklist.c.obj
+linklist.exe: CMakeFiles/linklist.dir/linklistmain.c.obj
 linklist.exe: CMakeFiles/linklist.dir/build.make
 linklist.exe: CMakeFiles/linklist.dir/linklibs.rsp
 linklist.exe: CMakeFiles/linklist.dir/objects1.rsp

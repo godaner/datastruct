@@ -17,8 +17,8 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqlist">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqlist.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sqlistmain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqlistmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -31,14 +31,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlist"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlistmain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqlist/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqlist.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sqlistmain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqlistmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,14 +51,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlist/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlistmain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="linklist">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/linklist.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="linklistmain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/linklistmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,14 +71,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 linklist"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 linklistmain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="linklist/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/linklist.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="linklistmain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/linklistmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -91,14 +91,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 linklist/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 linklistmain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="validatebracket">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/validatebracket.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="validatebracketmain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/validatebracketmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -111,14 +111,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 validatebracket"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 validatebracketmain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="validatebracket/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/validatebracket.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="validatebracketmain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/validatebracketmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -131,14 +131,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 validatebracket/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 validatebracketmain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lstack">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lstack.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="lstackmain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lstackmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -151,14 +151,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lstack"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lstackmain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lstack/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lstack.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="lstackmain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lstackmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -171,14 +171,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lstack/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lstackmain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="dlinklist">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/dlinklist.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="dlinklistmain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/dlinklistmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -191,14 +191,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 dlinklist"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 dlinklistmain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="dlinklist/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/dlinklist.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="dlinklistmain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/dlinklistmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -211,14 +211,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 dlinklist/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 dlinklistmain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqstack">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqstack.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sqstackmain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqstackmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -231,14 +231,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqstack"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqstackmain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqstack/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqstack.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sqstackmain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqstackmain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -251,14 +251,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqstack/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqstackmain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqqueue">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqqueue.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sqqueuemain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqqueuemain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -271,14 +271,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqqueue"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqqueuemain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqqueue/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqqueue.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sqqueuemain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/sqqueuemain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -291,14 +291,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqqueue/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqqueuemain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lqueue">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lqueue.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="lqueuemain.c">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lqueuemain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -311,14 +311,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lqueue"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lqueuemain.c"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lqueue/fast">
-				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lqueue.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="lqueuemain.c/fast">
+				<Option output="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/lqueuemain.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -331,7 +331,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lqueue/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 lqueuemain.c/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -358,29 +358,29 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/dlinklist.c">
-			<Option target="dlinklist"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/dlinklistmain.c">
+			<Option target="dlinklistmain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/linklist.c">
-			<Option target="linklist"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/linklistmain.c">
+			<Option target="linklistmain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lqueue.c">
-			<Option target="lqueue"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lqueuemain.c">
+			<Option target="lqueuemain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstack.c">
-			<Option target="lstack"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstackmain.c">
+			<Option target="lstackmain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqlist.c">
-			<Option target="sqlist"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqlistmain.c">
+			<Option target="sqlistmain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqqueue.c">
-			<Option target="sqqueue"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqqueuemain.c">
+			<Option target="sqqueuemain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqstack.c">
-			<Option target="sqstack"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqstackmain.c">
+			<Option target="sqstackmain.c"/>
 		</Unit>
-		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/validatebracket.c">
-			<Option target="validatebracket"/>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/validatebracketmain.c">
+			<Option target="validatebracketmain.c"/>
 		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

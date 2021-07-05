@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lqueuemain.c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\lqueuemain.c.dir/objects.a @CMakeFiles\lqueuemain.c.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\lqueuemain.c.dir/objects.a -Wl,--no-whole-archive -o lqueuemain.c.exe -Wl,--out-implib,liblqueuemain.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lqueuemain.c.dir\linklibs.rsp

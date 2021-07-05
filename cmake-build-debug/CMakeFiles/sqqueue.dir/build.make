@@ -75,28 +75,28 @@ include CMakeFiles/sqqueue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sqqueue.dir/flags.make
 
-CMakeFiles/sqqueue.dir/sqqueue.c.obj: CMakeFiles/sqqueue.dir/flags.make
-CMakeFiles/sqqueue.dir/sqqueue.c.obj: CMakeFiles/sqqueue.dir/includes_C.rsp
-CMakeFiles/sqqueue.dir/sqqueue.c.obj: ../sqqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sqqueue.dir/sqqueue.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sqqueue.dir\sqqueue.c.obj -c C:\Users\godaner\CLionProjects\datastruct\sqqueue.c
+CMakeFiles/sqqueue.dir/sqqueuemain.c.obj: CMakeFiles/sqqueue.dir/flags.make
+CMakeFiles/sqqueue.dir/sqqueuemain.c.obj: CMakeFiles/sqqueue.dir/includes_C.rsp
+CMakeFiles/sqqueue.dir/sqqueuemain.c.obj: ../sqqueuemain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sqqueue.dir/sqqueuemain.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sqqueue.dir\sqqueuemain.c.obj -c C:\Users\godaner\CLionProjects\datastruct\sqqueuemain.c
 
-CMakeFiles/sqqueue.dir/sqqueue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sqqueue.dir/sqqueue.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\sqqueue.c > CMakeFiles\sqqueue.dir\sqqueue.c.i
+CMakeFiles/sqqueue.dir/sqqueuemain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sqqueue.dir/sqqueuemain.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\sqqueuemain.c > CMakeFiles\sqqueue.dir\sqqueuemain.c.i
 
-CMakeFiles/sqqueue.dir/sqqueue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sqqueue.dir/sqqueue.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\sqqueue.c -o CMakeFiles\sqqueue.dir\sqqueue.c.s
+CMakeFiles/sqqueue.dir/sqqueuemain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sqqueue.dir/sqqueuemain.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\sqqueuemain.c -o CMakeFiles\sqqueue.dir\sqqueuemain.c.s
 
 # Object files for target sqqueue
 sqqueue_OBJECTS = \
-"CMakeFiles/sqqueue.dir/sqqueue.c.obj"
+"CMakeFiles/sqqueue.dir/sqqueuemain.c.obj"
 
 # External object files for target sqqueue
 sqqueue_EXTERNAL_OBJECTS =
 
-sqqueue.exe: CMakeFiles/sqqueue.dir/sqqueue.c.obj
+sqqueue.exe: CMakeFiles/sqqueue.dir/sqqueuemain.c.obj
 sqqueue.exe: CMakeFiles/sqqueue.dir/build.make
 sqqueue.exe: CMakeFiles/sqqueue.dir/linklibs.rsp
 sqqueue.exe: CMakeFiles/sqqueue.dir/objects1.rsp

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dlinklist.dir/dlinklist.c.obj"
+  "CMakeFiles/dlinklist.dir/dlinklistmain.c.obj"
   "dlinklist.exe"
   "dlinklist.exe.manifest"
   "dlinklist.pdb"

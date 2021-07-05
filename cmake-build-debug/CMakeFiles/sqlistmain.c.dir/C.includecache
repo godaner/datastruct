@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../sqlist.c
+malloc.h
+-
+stdio.h
+-
+u.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/sqlistmain.c
+stdio.h
+-
+sqlist.c
+-
+u.h
+-
+
