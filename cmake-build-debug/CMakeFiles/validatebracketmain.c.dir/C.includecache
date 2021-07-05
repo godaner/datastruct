@@ -21,6 +21,8 @@ u.h
 -
 lstack.c
 -
+string.h
+-
 
 C:/Users/godaner/CLionProjects/datastruct/validatebracketmain.c
 stdio.h

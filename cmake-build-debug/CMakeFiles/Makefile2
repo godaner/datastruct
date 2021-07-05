@@ -79,6 +79,7 @@ all: CMakeFiles/dlinklistmain.c.dir/all
 all: CMakeFiles/sqstackmain.c.dir/all
 all: CMakeFiles/sqqueuemain.c.dir/all
 all: CMakeFiles/lqueuemain.c.dir/all
+all: CMakeFiles/expressionvaluemain.c.dir/all
 
 .PHONY : all
 
@@ -96,6 +97,7 @@ clean: CMakeFiles/dlinklistmain.c.dir/clean
 clean: CMakeFiles/sqstackmain.c.dir/clean
 clean: CMakeFiles/sqqueuemain.c.dir/clean
 clean: CMakeFiles/lqueuemain.c.dir/clean
+clean: CMakeFiles/expressionvaluemain.c.dir/clean
 
 .PHONY : clean
 
@@ -106,7 +108,7 @@ clean: CMakeFiles/lqueuemain.c.dir/clean
 CMakeFiles/sqlistmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlistmain.c.dir\build.make CMakeFiles/sqlistmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlistmain.c.dir\build.make CMakeFiles/sqlistmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target sqlistmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target sqlistmain.c"
 .PHONY : CMakeFiles/sqlistmain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -133,7 +135,7 @@ CMakeFiles/sqlistmain.c.dir/clean:
 CMakeFiles/linklistmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklistmain.c.dir\build.make CMakeFiles/linklistmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklistmain.c.dir\build.make CMakeFiles/linklistmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target linklistmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target linklistmain.c"
 .PHONY : CMakeFiles/linklistmain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -160,7 +162,7 @@ CMakeFiles/linklistmain.c.dir/clean:
 CMakeFiles/validatebracketmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracketmain.c.dir\build.make CMakeFiles/validatebracketmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracketmain.c.dir\build.make CMakeFiles/validatebracketmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target validatebracketmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target validatebracketmain.c"
 .PHONY : CMakeFiles/validatebracketmain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,7 +189,7 @@ CMakeFiles/validatebracketmain.c.dir/clean:
 CMakeFiles/lstackmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target lstackmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target lstackmain.c"
 .PHONY : CMakeFiles/lstackmain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,7 +243,7 @@ CMakeFiles/dlinklistmain.c.dir/clean:
 CMakeFiles/sqstackmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstackmain.c.dir\build.make CMakeFiles/sqstackmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstackmain.c.dir\build.make CMakeFiles/sqstackmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target sqstackmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target sqstackmain.c"
 .PHONY : CMakeFiles/sqstackmain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -268,7 +270,7 @@ CMakeFiles/sqstackmain.c.dir/clean:
 CMakeFiles/sqqueuemain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueuemain.c.dir\build.make CMakeFiles/sqqueuemain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueuemain.c.dir\build.make CMakeFiles/sqqueuemain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target sqqueuemain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target sqqueuemain.c"
 .PHONY : CMakeFiles/sqqueuemain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,7 +297,7 @@ CMakeFiles/sqqueuemain.c.dir/clean:
 CMakeFiles/lqueuemain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target lqueuemain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target lqueuemain.c"
 .PHONY : CMakeFiles/lqueuemain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -314,6 +316,33 @@ lqueuemain.c: CMakeFiles/lqueuemain.c.dir/rule
 CMakeFiles/lqueuemain.c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/clean
 .PHONY : CMakeFiles/lqueuemain.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/expressionvaluemain.c.dir
+
+# All Build rule for target.
+CMakeFiles/expressionvaluemain.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target expressionvaluemain.c"
+.PHONY : CMakeFiles/expressionvaluemain.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/expressionvaluemain.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/expressionvaluemain.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/expressionvaluemain.c.dir/rule
+
+# Convenience name for target.
+expressionvaluemain.c: CMakeFiles/expressionvaluemain.c.dir/rule
+
+.PHONY : expressionvaluemain.c
+
+# clean rule for target.
+CMakeFiles/expressionvaluemain.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/clean
+.PHONY : CMakeFiles/expressionvaluemain.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

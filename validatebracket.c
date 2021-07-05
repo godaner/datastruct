@@ -1,9 +1,10 @@
 #include <u.h>
 #include <lstack.c>
+#include <string.h>
 
-bool ValidateBracket(S *s, const char *bk, int size) {
+bool ValidateBracket(S *s, const char *bk) {
     ElemType pe = 0;
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < strlen(bk); i++) {
         if (bk[i] == '{' || bk[i] == '(' || bk[i] == '[') {
             Push(s, bk[i]);
             continue;

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../expressionvalue.c
+stdio.h
+-
+u.h
+-
+lstack.c
+-
+string.h
+-
+
+../lstack.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/expressionvaluemain.c
+stdio.h
+-
+expressionvalue.c
+-
+string.h
+-
+

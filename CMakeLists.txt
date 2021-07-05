@@ -13,5 +13,6 @@ add_executable(lstackmain.c lstackmain.c)
 add_executable(sqqueuemain.c sqqueuemain.c)
 add_executable(lqueuemain.c lqueuemain.c)
 add_executable(validatebracketmain.c validatebracketmain.c)
+add_executable(expressionvaluemain.c expressionvaluemain.c)
 
 

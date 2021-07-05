@@ -232,6 +232,19 @@ lqueuemain.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/build
 .PHONY : lqueuemain.c/fast
 
+#=============================================================================
+# Target rules for targets named expressionvaluemain.c
+
+# Build rule for target.
+expressionvaluemain.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 expressionvaluemain.c
+.PHONY : expressionvaluemain.c
+
+# fast build rule for target.
+expressionvaluemain.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/build
+.PHONY : expressionvaluemain.c/fast
+
 dlinklistmain.obj: dlinklistmain.c.obj
 
 .PHONY : dlinklistmain.obj
@@ -258,6 +271,33 @@ dlinklistmain.s: dlinklistmain.c.s
 dlinklistmain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dlinklistmain.c.dir\build.make CMakeFiles/dlinklistmain.c.dir/dlinklistmain.c.s
 .PHONY : dlinklistmain.c.s
+
+expressionvaluemain.obj: expressionvaluemain.c.obj
+
+.PHONY : expressionvaluemain.obj
+
+# target to build an object file
+expressionvaluemain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj
+.PHONY : expressionvaluemain.c.obj
+
+expressionvaluemain.i: expressionvaluemain.c.i
+
+.PHONY : expressionvaluemain.i
+
+# target to preprocess a source file
+expressionvaluemain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.i
+.PHONY : expressionvaluemain.c.i
+
+expressionvaluemain.s: expressionvaluemain.c.s
+
+.PHONY : expressionvaluemain.s
+
+# target to generate assembly for a file
+expressionvaluemain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.s
+.PHONY : expressionvaluemain.c.s
 
 linklistmain.obj: linklistmain.c.obj
 
@@ -457,6 +497,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dlinklistmain.c
+	@echo ... expressionvaluemain.c
 	@echo ... linklistmain.c
 	@echo ... lqueuemain.c
 	@echo ... lstackmain.c
@@ -467,6 +508,9 @@ help:
 	@echo ... dlinklistmain.obj
 	@echo ... dlinklistmain.i
 	@echo ... dlinklistmain.s
+	@echo ... expressionvaluemain.obj
+	@echo ... expressionvaluemain.i
+	@echo ... expressionvaluemain.s
 	@echo ... linklistmain.obj
 	@echo ... linklistmain.i
 	@echo ... linklistmain.s

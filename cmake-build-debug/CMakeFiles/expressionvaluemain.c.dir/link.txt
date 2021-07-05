@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\expressionvaluemain.c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\expressionvaluemain.c.dir/objects.a @CMakeFiles\expressionvaluemain.c.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\expressionvaluemain.c.dir/objects.a -Wl,--no-whole-archive -o expressionvaluemain.c.exe -Wl,--out-implib,libexpressionvaluemain.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\expressionvaluemain.c.dir\linklibs.rsp
