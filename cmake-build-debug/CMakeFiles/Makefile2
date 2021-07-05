@@ -71,8 +71,10 @@ CMAKE_BINARY_DIR = C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/linklist.dir/all
 all: CMakeFiles/sqlist.dir/all
+all: CMakeFiles/linklist.dir/all
+all: CMakeFiles/validatebracket.dir/all
+all: CMakeFiles/lstack.dir/all
 all: CMakeFiles/dlinklist.dir/all
 all: CMakeFiles/sqstack.dir/all
 all: CMakeFiles/sqqueue.dir/all
@@ -86,14 +88,43 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/linklist.dir/clean
 clean: CMakeFiles/sqlist.dir/clean
+clean: CMakeFiles/linklist.dir/clean
+clean: CMakeFiles/validatebracket.dir/clean
+clean: CMakeFiles/lstack.dir/clean
 clean: CMakeFiles/dlinklist.dir/clean
 clean: CMakeFiles/sqstack.dir/clean
 clean: CMakeFiles/sqqueue.dir/clean
 clean: CMakeFiles/lqueue.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sqlist.dir
+
+# All Build rule for target.
+CMakeFiles/sqlist.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target sqlist"
+.PHONY : CMakeFiles/sqlist.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sqlist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sqlist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sqlist.dir/rule
+
+# Convenience name for target.
+sqlist: CMakeFiles/sqlist.dir/rule
+
+.PHONY : sqlist
+
+# clean rule for target.
+CMakeFiles/sqlist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/clean
+.PHONY : CMakeFiles/sqlist.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/linklist.dir
@@ -123,31 +154,58 @@ CMakeFiles/linklist.dir/clean:
 .PHONY : CMakeFiles/linklist.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sqlist.dir
+# Target rules for target CMakeFiles/validatebracket.dir
 
 # All Build rule for target.
-CMakeFiles/sqlist.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target sqlist"
-.PHONY : CMakeFiles/sqlist.dir/all
+CMakeFiles/validatebracket.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target validatebracket"
+.PHONY : CMakeFiles/validatebracket.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sqlist.dir/rule: cmake_check_build_system
+CMakeFiles/validatebracket.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sqlist.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/validatebracket.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/sqlist.dir/rule
+.PHONY : CMakeFiles/validatebracket.dir/rule
 
 # Convenience name for target.
-sqlist: CMakeFiles/sqlist.dir/rule
+validatebracket: CMakeFiles/validatebracket.dir/rule
 
-.PHONY : sqlist
+.PHONY : validatebracket
 
 # clean rule for target.
-CMakeFiles/sqlist.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/clean
-.PHONY : CMakeFiles/sqlist.dir/clean
+CMakeFiles/validatebracket.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/clean
+.PHONY : CMakeFiles/validatebracket.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lstack.dir
+
+# All Build rule for target.
+CMakeFiles/lstack.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target lstack"
+.PHONY : CMakeFiles/lstack.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lstack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lstack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lstack.dir/rule
+
+# Convenience name for target.
+lstack: CMakeFiles/lstack.dir/rule
+
+.PHONY : lstack
+
+# clean rule for target.
+CMakeFiles/lstack.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/clean
+.PHONY : CMakeFiles/lstack.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/dlinklist.dir
@@ -183,7 +241,7 @@ CMakeFiles/dlinklist.dir/clean:
 CMakeFiles/sqstack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target sqstack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target sqstack"
 .PHONY : CMakeFiles/sqstack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,7 +268,7 @@ CMakeFiles/sqstack.dir/clean:
 CMakeFiles/sqqueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqqueue.dir\build.make CMakeFiles/sqqueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target sqqueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target sqqueue"
 .PHONY : CMakeFiles/sqqueue.dir/all
 
 # Build rule for subdir invocation for target.

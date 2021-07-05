@@ -1,8 +1,10 @@
-C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/linklist.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqlist.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/linklist.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/validatebracket.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lstack.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/dlinklist.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqstack.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqqueue.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lqueue.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/rebuild_cache.dir

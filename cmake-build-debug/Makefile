@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -95,6 +84,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sqlist
+
+# Build rule for target.
+sqlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqlist
+.PHONY : sqlist
+
+# fast build rule for target.
+sqlist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
+.PHONY : sqlist/fast
+
+#=============================================================================
 # Target rules for targets named linklist
 
 # Build rule for target.
@@ -142,17 +155,30 @@ linklist/fast:
 .PHONY : linklist/fast
 
 #=============================================================================
-# Target rules for targets named sqlist
+# Target rules for targets named validatebracket
 
 # Build rule for target.
-sqlist: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqlist
-.PHONY : sqlist
+validatebracket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 validatebracket
+.PHONY : validatebracket
 
 # fast build rule for target.
-sqlist/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlist.dir\build.make CMakeFiles/sqlist.dir/build
-.PHONY : sqlist/fast
+validatebracket/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/build
+.PHONY : validatebracket/fast
+
+#=============================================================================
+# Target rules for targets named lstack
+
+# Build rule for target.
+lstack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lstack
+.PHONY : lstack
+
+# fast build rule for target.
+lstack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/build
+.PHONY : lstack/fast
 
 #=============================================================================
 # Target rules for targets named dlinklist
@@ -287,6 +313,33 @@ lqueue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueue.dir\build.make CMakeFiles/lqueue.dir/lqueue.c.s
 .PHONY : lqueue.c.s
 
+lstack.obj: lstack.c.obj
+
+.PHONY : lstack.obj
+
+# target to build an object file
+lstack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/lstack.c.obj
+.PHONY : lstack.c.obj
+
+lstack.i: lstack.c.i
+
+.PHONY : lstack.i
+
+# target to preprocess a source file
+lstack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/lstack.c.i
+.PHONY : lstack.c.i
+
+lstack.s: lstack.c.s
+
+.PHONY : lstack.s
+
+# target to generate assembly for a file
+lstack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstack.dir\build.make CMakeFiles/lstack.dir/lstack.c.s
+.PHONY : lstack.c.s
+
 sqlist.obj: sqlist.c.obj
 
 .PHONY : sqlist.obj
@@ -368,6 +421,33 @@ sqstack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstack.dir\build.make CMakeFiles/sqstack.dir/sqstack.c.s
 .PHONY : sqstack.c.s
 
+validatebracket.obj: validatebracket.c.obj
+
+.PHONY : validatebracket.obj
+
+# target to build an object file
+validatebracket.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/validatebracket.c.obj
+.PHONY : validatebracket.c.obj
+
+validatebracket.i: validatebracket.c.i
+
+.PHONY : validatebracket.i
+
+# target to preprocess a source file
+validatebracket.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/validatebracket.c.i
+.PHONY : validatebracket.c.i
+
+validatebracket.s: validatebracket.c.s
+
+.PHONY : validatebracket.s
+
+# target to generate assembly for a file
+validatebracket.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracket.dir\build.make CMakeFiles/validatebracket.dir/validatebracket.c.s
+.PHONY : validatebracket.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -379,9 +459,11 @@ help:
 	@echo ... dlinklist
 	@echo ... linklist
 	@echo ... lqueue
+	@echo ... lstack
 	@echo ... sqlist
 	@echo ... sqqueue
 	@echo ... sqstack
+	@echo ... validatebracket
 	@echo ... dlinklist.obj
 	@echo ... dlinklist.i
 	@echo ... dlinklist.s
@@ -391,6 +473,9 @@ help:
 	@echo ... lqueue.obj
 	@echo ... lqueue.i
 	@echo ... lqueue.s
+	@echo ... lstack.obj
+	@echo ... lstack.i
+	@echo ... lstack.s
 	@echo ... sqlist.obj
 	@echo ... sqlist.i
 	@echo ... sqlist.s
@@ -400,6 +485,9 @@ help:
 	@echo ... sqstack.obj
 	@echo ... sqstack.i
 	@echo ... sqstack.s
+	@echo ... validatebracket.obj
+	@echo ... validatebracket.i
+	@echo ... validatebracket.s
 .PHONY : help
 
 

@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lstack.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\lstack.dir/objects.a @CMakeFiles\lstack.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\lstack.dir/objects.a -Wl,--no-whole-archive -o lstack.exe -Wl,--out-implib,liblstack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lstack.dir\linklibs.rsp
