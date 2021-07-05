@@ -39,14 +39,10 @@ Bool Init(S *s) {
 }
 
 Bool Push(S *s, ElemType e) {
-    LNode *c = s->l;
-    while (c->next) {
-        c = c->next;
-    }
     LNode *n = malloc(sizeof(LNode));
-    n->next = NULL;
+    n->next = s->l->next;
     n->e = e;
-    c->next = n;
+    s->l->next = n;
     return true;
 }
 
@@ -61,10 +57,10 @@ Bool Pop(S *s, ElemType *e) {
     if (StackEmpty(s)) {
         return false;
     }
-    LNode *n = s->l->next;
-    *e = n->e;
-    s->l->next = n->next;
-    free(n);
+    *e = s->l->next->e;
+    LNode *m = s->l->next;
+    s->l->next = m->next;
+    free(m);
     return true;
 }
 
@@ -102,7 +98,6 @@ int main() {
     printf("Pop is: %d %d\n", b, e);
     Print(&s, "Pop");
 
-    // todo ????
     b = Pop(&s, &e);
     printf("Pop is: %d %d\n", b, e);
     Print(&s, "Pop");
