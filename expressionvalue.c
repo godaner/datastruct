@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <u.h>
 #include <lstack.c>
 #include <string.h>

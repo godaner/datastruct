@@ -4,6 +4,7 @@ C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/validateb
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lstackmain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/dlinklistmain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqstackmain.c.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqstringmain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqqueuemain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lqueuemain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/expressionvaluemain.c.dir

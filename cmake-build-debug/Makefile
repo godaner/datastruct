@@ -207,6 +207,19 @@ sqstackmain.c/fast:
 .PHONY : sqstackmain.c/fast
 
 #=============================================================================
+# Target rules for targets named sqstringmain.c
+
+# Build rule for target.
+sqstringmain.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqstringmain.c
+.PHONY : sqstringmain.c
+
+# fast build rule for target.
+sqstringmain.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/build
+.PHONY : sqstringmain.c/fast
+
+#=============================================================================
 # Target rules for targets named sqqueuemain.c
 
 # Build rule for target.
@@ -461,6 +474,33 @@ sqstackmain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstackmain.c.dir\build.make CMakeFiles/sqstackmain.c.dir/sqstackmain.c.s
 .PHONY : sqstackmain.c.s
 
+sqstringmain.obj: sqstringmain.c.obj
+
+.PHONY : sqstringmain.obj
+
+# target to build an object file
+sqstringmain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/sqstringmain.c.obj
+.PHONY : sqstringmain.c.obj
+
+sqstringmain.i: sqstringmain.c.i
+
+.PHONY : sqstringmain.i
+
+# target to preprocess a source file
+sqstringmain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/sqstringmain.c.i
+.PHONY : sqstringmain.c.i
+
+sqstringmain.s: sqstringmain.c.s
+
+.PHONY : sqstringmain.s
+
+# target to generate assembly for a file
+sqstringmain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/sqstringmain.c.s
+.PHONY : sqstringmain.c.s
+
 validatebracketmain.obj: validatebracketmain.c.obj
 
 .PHONY : validatebracketmain.obj
@@ -504,6 +544,7 @@ help:
 	@echo ... sqlistmain.c
 	@echo ... sqqueuemain.c
 	@echo ... sqstackmain.c
+	@echo ... sqstringmain.c
 	@echo ... validatebracketmain.c
 	@echo ... dlinklistmain.obj
 	@echo ... dlinklistmain.i
@@ -529,6 +570,9 @@ help:
 	@echo ... sqstackmain.obj
 	@echo ... sqstackmain.i
 	@echo ... sqstackmain.s
+	@echo ... sqstringmain.obj
+	@echo ... sqstringmain.i
+	@echo ... sqstringmain.s
 	@echo ... validatebracketmain.obj
 	@echo ... validatebracketmain.i
 	@echo ... validatebracketmain.s

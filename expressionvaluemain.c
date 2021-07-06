@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <expressionvalue.c>
-#include <string.h>
 
 int main() {
     S s;

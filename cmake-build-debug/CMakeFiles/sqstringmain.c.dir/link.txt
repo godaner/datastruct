@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sqstringmain.c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\sqstringmain.c.dir/objects.a @CMakeFiles\sqstringmain.c.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\sqstringmain.c.dir/objects.a -Wl,--no-whole-archive -o sqstringmain.c.exe -Wl,--out-implib,libsqstringmain.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sqstringmain.c.dir\linklibs.rsp

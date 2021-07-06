@@ -6,27 +6,21 @@
 
 #IncludeRegexTransform: 
 
-../expressionvalue.c
-u.h
--
-lstack.c
--
-string.h
--
-
-../lstack.c
+../sqstring.c
 stdio.h
 -
 u.h
+-
+string.h
 -
 malloc.h
 -
 
 ../u.h
 
-C:/Users/godaner/CLionProjects/datastruct/expressionvaluemain.c
+C:/Users/godaner/CLionProjects/datastruct/sqstringmain.c
 stdio.h
 -
-expressionvalue.c
+sqstring.c
 -
 
