@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sqstringmain.c.dir/sqstring.c.obj"
   "CMakeFiles/sqstringmain.c.dir/sqstringmain.c.obj"
   "libsqstringmain.c.dll.a"
   "sqstringmain.c.exe"

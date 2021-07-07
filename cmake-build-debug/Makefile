@@ -474,6 +474,33 @@ sqstackmain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstackmain.c.dir\build.make CMakeFiles/sqstackmain.c.dir/sqstackmain.c.s
 .PHONY : sqstackmain.c.s
 
+sqstring.obj: sqstring.c.obj
+
+.PHONY : sqstring.obj
+
+# target to build an object file
+sqstring.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/sqstring.c.obj
+.PHONY : sqstring.c.obj
+
+sqstring.i: sqstring.c.i
+
+.PHONY : sqstring.i
+
+# target to preprocess a source file
+sqstring.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/sqstring.c.i
+.PHONY : sqstring.c.i
+
+sqstring.s: sqstring.c.s
+
+.PHONY : sqstring.s
+
+# target to generate assembly for a file
+sqstring.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/sqstring.c.s
+.PHONY : sqstring.c.s
+
 sqstringmain.obj: sqstringmain.c.obj
 
 .PHONY : sqstringmain.obj
@@ -570,6 +597,9 @@ help:
 	@echo ... sqstackmain.obj
 	@echo ... sqstackmain.i
 	@echo ... sqstackmain.s
+	@echo ... sqstring.obj
+	@echo ... sqstring.i
+	@echo ... sqstring.s
 	@echo ... sqstringmain.obj
 	@echo ... sqstringmain.i
 	@echo ... sqstringmain.s

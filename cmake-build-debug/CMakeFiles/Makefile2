@@ -164,7 +164,7 @@ CMakeFiles/linklistmain.c.dir/clean:
 CMakeFiles/validatebracketmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracketmain.c.dir\build.make CMakeFiles/validatebracketmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\validatebracketmain.c.dir\build.make CMakeFiles/validatebracketmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target validatebracketmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target validatebracketmain.c"
 .PHONY : CMakeFiles/validatebracketmain.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -272,12 +272,12 @@ CMakeFiles/sqstackmain.c.dir/clean:
 CMakeFiles/sqstringmain.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqstringmain.c.dir\build.make CMakeFiles/sqstringmain.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target sqstringmain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=17,18,19 "Built target sqstringmain.c"
 .PHONY : CMakeFiles/sqstringmain.c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sqstringmain.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sqstringmain.c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sqstringmain.c.dir/rule

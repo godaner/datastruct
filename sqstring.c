@@ -2,11 +2,8 @@
 #include <u.h>
 #include <string.h>
 #include <malloc.h>
+#include <sqstring.h>
 
-typedef struct SqString {
-    char *ch;
-    int length;
-} SqString, S, String;
 
 bool StrInit(S *s) {
     s->ch = NULL;

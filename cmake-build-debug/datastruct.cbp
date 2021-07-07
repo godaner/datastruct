@@ -462,6 +462,12 @@
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqstackmain.c">
 			<Option target="sqstackmain.c"/>
 		</Unit>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqstring.c">
+			<Option target="sqstringmain.c"/>
+		</Unit>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqstring.h">
+			<Option target="sqstringmain.c"/>
+		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/sqstringmain.c">
 			<Option target="sqstringmain.c"/>
 		</Unit>

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sqstring.c>
+#include <sqstring.h>
 
 int main() {
     SqString s;
