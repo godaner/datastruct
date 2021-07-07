@@ -31,11 +31,19 @@ bool StrPrint(S *s) {
     return true;
 }
 
-bool StrAssign(S *s, char *ch) {
-    if (s->ch) {
+bool StrClear(S *s) {
+    s->length = 0;
+    if (!s->ch) {
         free(s->ch);
         s->ch = NULL;
-        s->length = 0;
+    }
+    return true;
+}
+
+
+bool StrAssign(S *s, char *ch) {
+    if (!StrClear(s)) {
+        return false;
     }
     int chL = strlen(ch);
     if (!chL) {
@@ -45,16 +53,6 @@ bool StrAssign(S *s, char *ch) {
     s->length = chL;
     for (int i = 0; i < chL; ++i) {
         s->ch[i] = ch[i];
-    }
-    return true;
-}
-
-
-bool StrClear(S *s) {
-    s->length = 0;
-    if (!s->ch) {
-        free(s->ch);
-        s->ch = NULL;
     }
     return true;
 }
@@ -90,10 +88,8 @@ int StrCompare(S *s, S *s1) {
 }
 
 bool StrCopy(S *t, S *s) {
-    if (t->ch) {
-        free(t->ch);
-        t->ch = NULL;
-        t->length = 0;
+    if (!StrClear(s)) {
+        return false;
     }
     int sLen = StrLength(s);
     if (sLen <= 0) {
@@ -105,6 +101,29 @@ bool StrCopy(S *t, S *s) {
         t->ch[i] = s->ch[i];
     }
     return true;
+}
+
+bool StrViolenceIndex(S *s, S *t) {
+    if (StrEmpty(t)) {
+        return -1;
+    }
+    if (StrEmpty(s)) {
+        return -1;
+    }
+    int i = 0, j = 0;
+    for (; i < StrLength(s) && j < StrLength(t);) {
+        if (s->ch[i] == t->ch[j]) {
+            i++;
+            j++;
+            continue;
+        }
+        i = i - j + 1;
+        j = 0;
+    }
+    if (j >= StrLength(t)) {
+        return i - j;
+    }
+    return -1;
 }
 
 bool StrContact(S *t, S *s, S *s1) {

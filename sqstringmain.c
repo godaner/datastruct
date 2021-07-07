@@ -41,6 +41,13 @@ int main() {
     StrContact(&t, &s, &s1);
     StrPrint(&t);
 
+    // StrViolenceIndex
+    StrAssign(&s, "zhangke");
+    StrAssign(&t, "hangke");
+    printf("===>StrViolenceIndex\n");
+    int index = StrViolenceIndex(&s, &t);
+    printf("%d\n", index);
+
     // StrClear
     printf("===>StrClear\n");
     StrClear(&s);
