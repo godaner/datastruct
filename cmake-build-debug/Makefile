@@ -258,6 +258,73 @@ expressionvaluemain.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/build
 .PHONY : expressionvaluemain.c/fast
 
+#=============================================================================
+# Target rules for targets named binarytreemain.c
+
+# Build rule for target.
+binarytreemain.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 binarytreemain.c
+.PHONY : binarytreemain.c
+
+# fast build rule for target.
+binarytreemain.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/build
+.PHONY : binarytreemain.c/fast
+
+binarytree.obj: binarytree.c.obj
+
+.PHONY : binarytree.obj
+
+# target to build an object file
+binarytree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytree.c.obj
+.PHONY : binarytree.c.obj
+
+binarytree.i: binarytree.c.i
+
+.PHONY : binarytree.i
+
+# target to preprocess a source file
+binarytree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytree.c.i
+.PHONY : binarytree.c.i
+
+binarytree.s: binarytree.c.s
+
+.PHONY : binarytree.s
+
+# target to generate assembly for a file
+binarytree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytree.c.s
+.PHONY : binarytree.c.s
+
+binarytreemain.obj: binarytreemain.c.obj
+
+.PHONY : binarytreemain.obj
+
+# target to build an object file
+binarytreemain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj
+.PHONY : binarytreemain.c.obj
+
+binarytreemain.i: binarytreemain.c.i
+
+.PHONY : binarytreemain.i
+
+# target to preprocess a source file
+binarytreemain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytreemain.c.i
+.PHONY : binarytreemain.c.i
+
+binarytreemain.s: binarytreemain.c.s
+
+.PHONY : binarytreemain.s
+
+# target to generate assembly for a file
+binarytreemain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytreemain.c.s
+.PHONY : binarytreemain.c.s
+
 dlinklistmain.obj: dlinklistmain.c.obj
 
 .PHONY : dlinklistmain.obj
@@ -365,6 +432,33 @@ lqueuemain.s: lqueuemain.c.s
 lqueuemain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/lqueuemain.c.s
 .PHONY : lqueuemain.c.s
+
+lstack.obj: lstack.c.obj
+
+.PHONY : lstack.obj
+
+# target to build an object file
+lstack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/lstack.c.obj
+.PHONY : lstack.c.obj
+
+lstack.i: lstack.c.i
+
+.PHONY : lstack.i
+
+# target to preprocess a source file
+lstack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/lstack.c.i
+.PHONY : lstack.c.i
+
+lstack.s: lstack.c.s
+
+.PHONY : lstack.s
+
+# target to generate assembly for a file
+lstack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/lstack.c.s
+.PHONY : lstack.c.s
 
 lstackmain.obj: lstackmain.c.obj
 
@@ -563,6 +657,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... binarytreemain.c
 	@echo ... dlinklistmain.c
 	@echo ... expressionvaluemain.c
 	@echo ... linklistmain.c
@@ -573,6 +668,12 @@ help:
 	@echo ... sqstackmain.c
 	@echo ... sqstringmain.c
 	@echo ... validatebracketmain.c
+	@echo ... binarytree.obj
+	@echo ... binarytree.i
+	@echo ... binarytree.s
+	@echo ... binarytreemain.obj
+	@echo ... binarytreemain.i
+	@echo ... binarytreemain.s
 	@echo ... dlinklistmain.obj
 	@echo ... dlinklistmain.i
 	@echo ... dlinklistmain.s
@@ -585,6 +686,9 @@ help:
 	@echo ... lqueuemain.obj
 	@echo ... lqueuemain.i
 	@echo ... lqueuemain.s
+	@echo ... lstack.obj
+	@echo ... lstack.i
+	@echo ... lstack.s
 	@echo ... lstackmain.obj
 	@echo ... lstackmain.i
 	@echo ... lstackmain.s

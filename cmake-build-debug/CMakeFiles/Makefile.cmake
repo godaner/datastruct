@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sqqueuemain.c.dir/DependInfo.cmake"
   "CMakeFiles/lqueuemain.c.dir/DependInfo.cmake"
   "CMakeFiles/expressionvaluemain.c.dir/DependInfo.cmake"
+  "CMakeFiles/binarytreemain.c.dir/DependInfo.cmake"
   )

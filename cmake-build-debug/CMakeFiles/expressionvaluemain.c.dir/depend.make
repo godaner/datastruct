@@ -3,6 +3,7 @@
 
 CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj: ../expressionvalue.c
 CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj: ../lstack.c
+CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj: ../lstack.h
 CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj: ../u.h
 CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj: ../expressionvaluemain.c
 

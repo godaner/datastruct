@@ -8,5 +8,6 @@ C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqstringm
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/sqqueuemain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/lqueuemain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/expressionvaluemain.c.dir
+C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/binarytreemain.c.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/rebuild_cache.dir

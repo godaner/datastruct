@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <u.h>
-#include <lstack.c>
+#include <lstack.h>
 
 int main() {
     S s;

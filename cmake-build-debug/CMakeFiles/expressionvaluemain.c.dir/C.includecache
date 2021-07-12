@@ -21,6 +21,16 @@ u.h
 -
 malloc.h
 -
+lstack.h
+-
+
+../lstack.h
+stdio.h
+-
+u.h
+-
+malloc.h
+-
 
 ../u.h
 

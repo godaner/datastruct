@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../lstack.c
+../lstack.h
 stdio.h
 -
 u.h
@@ -16,11 +16,21 @@ malloc.h
 
 ../u.h
 
+C:/Users/godaner/CLionProjects/datastruct/lstack.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+lstack.h
+-
+
 C:/Users/godaner/CLionProjects/datastruct/lstackmain.c
 stdio.h
 -
 u.h
 -
-lstack.c
+lstack.h
 -
 

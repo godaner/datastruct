@@ -1,14 +1,7 @@
 #include <stdio.h>
 #include <u.h>
 #include <malloc.h>
-
-typedef struct LNode {
-    ElemType e;
-    struct LNode *next;
-} LNode, L;
-typedef struct LStack {
-    L *l;
-} LStack, S;
+#include <lstack.h>
 
 int Length(S *s) {
     int i = 0;

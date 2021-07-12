@@ -4,5 +4,6 @@
 CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj
  ../expressionvalue.c
  ../lstack.c
+ ../lstack.h
  ../u.h
  C:/Users/godaner/CLionProjects/datastruct/expressionvaluemain.c
