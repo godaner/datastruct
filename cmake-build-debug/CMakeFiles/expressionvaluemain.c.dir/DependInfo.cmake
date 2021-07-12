@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/godaner/CLionProjects/datastruct/expressionvaluemain.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj"
+  "C:/Users/godaner/CLionProjects/datastruct/lstack.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/expressionvaluemain.c.dir/lstack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

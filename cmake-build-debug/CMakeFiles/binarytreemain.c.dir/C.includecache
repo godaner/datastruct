@@ -6,23 +6,25 @@
 
 #IncludeRegexTransform: 
 
-../lstack.h
-stdio.h
--
+../binarytree.h
 u.h
 -
+stdio.h
+-
+linklist.h
+-
+
+../linklist.h
+stdio.h
+-
 malloc.h
+-
+u.h
 -
 
 ../u.h
 
-C:/Users/godaner/CLionProjects/datastruct/lstack.c
-stdio.h
--
-u.h
--
-malloc.h
--
-lstack.h
+C:/Users/godaner/CLionProjects/datastruct/binarytreemain.c
+binarytree.h
 -
 

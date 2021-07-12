@@ -493,6 +493,14 @@
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/expressionvaluemain.c">
 			<Option target="expressionvaluemain.c"/>
 		</Unit>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/linklist.c">
+			<Option target="linklistmain.c"/>
+			<Option target="binarytreemain.c"/>
+		</Unit>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/linklist.h">
+			<Option target="linklistmain.c"/>
+			<Option target="binarytreemain.c"/>
+		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/linklistmain.c">
 			<Option target="linklistmain.c"/>
 		</Unit>
@@ -501,9 +509,13 @@
 		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstack.c">
 			<Option target="lstackmain.c"/>
+			<Option target="expressionvaluemain.c"/>
+			<Option target="binarytreemain.c"/>
 		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstack.h">
 			<Option target="lstackmain.c"/>
+			<Option target="expressionvaluemain.c"/>
+			<Option target="binarytreemain.c"/>
 		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstackmain.c">
 			<Option target="lstackmain.c"/>

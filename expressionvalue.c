@@ -1,5 +1,5 @@
 #include <u.h>
-#include <lstack.c>
+#include <lstack.h>
 #include <string.h>
 
 bool ExpressionValue(S *s, char *expression, int *r) {

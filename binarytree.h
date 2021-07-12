@@ -7,19 +7,19 @@
 
 #include <u.h>
 #include <stdio.h>
-#include <.h>
+#include <linklist.h>
 
 typedef struct BinaryTreeNode {
     struct BinaryTreeNode *Lc, *Rc;
     ElemType e;
 } BinaryTreeNode, BinaryTree, T;
 
-T *CreateTree(ElemType *e, int size);
+T *TreeCreate(ElemType *e, int size);
 
-void PreOrder(T *t);
+bool TreePreOrder(T *t, L *l);
 
-void InOrder(T *t);
+bool TreeInOrder(T *t, L *l);
 
-void PostOrder(T *t);
+bool TreePostOrder(T *t, L *l);
 
 #endif //DATASTRUCT_BINARYTREE_H

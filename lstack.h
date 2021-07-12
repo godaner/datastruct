@@ -5,26 +5,26 @@
 #include <u.h>
 #include <malloc.h>
 
-typedef struct LNode {
+typedef struct StackLNode {
     ElemType e;
-    struct LNode *next;
-} LNode, L;
+    struct StackLNode *next;
+} StackLNode, StackL;
 typedef struct LStack {
-    L *l;
+    StackLNode *l;
 } LStack, S;
 
-int Length(S *s);
+int StackLength(S *s);
 
-int Print(S *s, char *prefix);
+int StackPrint(S *s, char *prefix);
 
-Bool Init(S *s);
+Bool StackInit(S *s);
 
-Bool Push(S *s, ElemType e);
+Bool StackPush(S *s, ElemType e);
 
 Bool StackEmpty(S *s);
 
-Bool Pop(S *s, ElemType *e);
+Bool StackPop(S *s, ElemType *e);
 
-Bool Get(S *s, ElemType *e);
+Bool StackGet(S *s, ElemType *e);
 
 #endif //DATASTRUCT_LSTACK_H

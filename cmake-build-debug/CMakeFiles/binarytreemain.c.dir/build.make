@@ -89,10 +89,38 @@ CMakeFiles/binarytreemain.c.dir/binarytreemain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/binarytreemain.c.dir/binarytreemain.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\binarytreemain.c -o CMakeFiles\binarytreemain.c.dir\binarytreemain.c.s
 
+CMakeFiles/binarytreemain.c.dir/linklist.c.obj: CMakeFiles/binarytreemain.c.dir/flags.make
+CMakeFiles/binarytreemain.c.dir/linklist.c.obj: CMakeFiles/binarytreemain.c.dir/includes_C.rsp
+CMakeFiles/binarytreemain.c.dir/linklist.c.obj: ../linklist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/binarytreemain.c.dir/linklist.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\binarytreemain.c.dir\linklist.c.obj -c C:\Users\godaner\CLionProjects\datastruct\linklist.c
+
+CMakeFiles/binarytreemain.c.dir/linklist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/binarytreemain.c.dir/linklist.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\linklist.c > CMakeFiles\binarytreemain.c.dir\linklist.c.i
+
+CMakeFiles/binarytreemain.c.dir/linklist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/binarytreemain.c.dir/linklist.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\linklist.c -o CMakeFiles\binarytreemain.c.dir\linklist.c.s
+
+CMakeFiles/binarytreemain.c.dir/lstack.c.obj: CMakeFiles/binarytreemain.c.dir/flags.make
+CMakeFiles/binarytreemain.c.dir/lstack.c.obj: CMakeFiles/binarytreemain.c.dir/includes_C.rsp
+CMakeFiles/binarytreemain.c.dir/lstack.c.obj: ../lstack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/binarytreemain.c.dir/lstack.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\binarytreemain.c.dir\lstack.c.obj -c C:\Users\godaner\CLionProjects\datastruct\lstack.c
+
+CMakeFiles/binarytreemain.c.dir/lstack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/binarytreemain.c.dir/lstack.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\godaner\CLionProjects\datastruct\lstack.c > CMakeFiles\binarytreemain.c.dir\lstack.c.i
+
+CMakeFiles/binarytreemain.c.dir/lstack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/binarytreemain.c.dir/lstack.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\godaner\CLionProjects\datastruct\lstack.c -o CMakeFiles\binarytreemain.c.dir\lstack.c.s
+
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: CMakeFiles/binarytreemain.c.dir/flags.make
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: CMakeFiles/binarytreemain.c.dir/includes_C.rsp
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../binarytree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/binarytreemain.c.dir/binarytree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/binarytreemain.c.dir/binarytree.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\binarytreemain.c.dir\binarytree.c.obj -c C:\Users\godaner\CLionProjects\datastruct\binarytree.c
 
 CMakeFiles/binarytreemain.c.dir/binarytree.c.i: cmake_force
@@ -106,18 +134,22 @@ CMakeFiles/binarytreemain.c.dir/binarytree.c.s: cmake_force
 # Object files for target binarytreemain.c
 binarytreemain_c_OBJECTS = \
 "CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj" \
+"CMakeFiles/binarytreemain.c.dir/linklist.c.obj" \
+"CMakeFiles/binarytreemain.c.dir/lstack.c.obj" \
 "CMakeFiles/binarytreemain.c.dir/binarytree.c.obj"
 
 # External object files for target binarytreemain.c
 binarytreemain_c_EXTERNAL_OBJECTS =
 
 binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj
+binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/linklist.c.obj
+binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/lstack.c.obj
 binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/binarytree.c.obj
 binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/build.make
 binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/linklibs.rsp
 binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/objects1.rsp
 binarytreemain.c.exe: CMakeFiles/binarytreemain.c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable binarytreemain.c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\godaner\CLionProjects\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable binarytreemain.c.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\binarytreemain.c.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

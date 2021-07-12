@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../linklist.c
+../linklist.h
 stdio.h
 -
 malloc.h
@@ -21,6 +21,6 @@ stdio.h
 -
 u.h
 -
-linklist.c
+linklist.h
 -
 

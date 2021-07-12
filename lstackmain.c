@@ -5,32 +5,32 @@
 int main() {
     S s;
     // Init
-    Init(&s);
-    Print(&s, "Init");
+    StackInit(&s);
+    StackPrint(&s, "Init");
 
     // Push
     ElemType e = 11;
-    Push(&s, e);
+    StackPush(&s, e);
     e = 22;
-    Push(&s, e);
+    StackPush(&s, e);
     e = 33;
-    Push(&s, e);
-    Print(&s, "Push");
+    StackPush(&s, e);
+    StackPrint(&s, "Push");
 
 
     // Get
-    Bool b = Get(&s, &e);
+    Bool b = StackGet(&s, &e);
     printf("Get is: %d %d\n", b, e);
-    Print(&s, "Get");
+    StackPrint(&s, "Get");
 
     // Pop
-    b = Pop(&s, &e);
+    b = StackPop(&s, &e);
     printf("Pop is: %d %d\n", b, e);
-    Print(&s, "Pop");
+    StackPrint(&s, "Pop");
 
-    b = Pop(&s, &e);
+    b = StackPop(&s, &e);
     printf("Pop is: %d %d\n", b, e);
-    Print(&s, "Pop");
+    StackPrint(&s, "Pop");
 
     return 1;
 }

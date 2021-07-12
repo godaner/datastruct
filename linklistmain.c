@@ -1,48 +1,48 @@
 #include <stdio.h>
 #include <u.h>
-#include <linklist.c>
+#include <linklist.h>
 
 
 int main() {
     int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    L *l = Create();
+    L *l = ListCreate();
     // HeadInsert
-    HeadInsert(l, arr, sizeof(arr) / sizeof(arr[0]));
-    Print(l, "HeadInsert");
+    ListHeadInsert(l, arr, sizeof(arr) / sizeof(arr[0]));
+    ListPrint(l, "HeadInsert");
 
     // TailInsert
-    TailInsert(l, arr, sizeof(arr) / sizeof(arr[0]));
-    Print(l, "TailInsert");
+    ListTailInsert(l, arr, sizeof(arr) / sizeof(arr[0]));
+    ListPrint(l, "TailInsert");
 
     // FindByIndex
-    LNode *n = FindByIndex(l, 3);
+    LNode *n = ListFindByIndex(l, 3);
     printf("FindByIndex is: %d\n", n->elem);
-    Print(l, "FindByIndex");
+    ListPrint(l, "FindByIndex");
 
     // FindByElem
-    n = FindByElem(l, 0);
+    n = ListFindByElem(l, 0);
     printf("FindByElem is: %d\n", n->elem);
-    Print(l, "FindByElem");
+    ListPrint(l, "FindByElem");
 
 
     // Insert
     ElemType e = 100;
-    Insert(l, e, 21);
-    Insert(l, e, 1);
-    Print(l, "Insert");
+    ListInsert(l, e, 21);
+    ListInsert(l, e, 1);
+    ListPrint(l, "Insert");
 
     // Delete
-    Delete(l, 1);
-    Delete(l, 21);
-    Delete(l, 21);
-    Delete(l, 0);
-    Print(l, "Delete");
+    ListDelete(l, 1);
+    ListDelete(l, 21);
+    ListDelete(l, 21);
+    ListDelete(l, 0);
+    ListPrint(l, "Delete");
 
 
     // Length
-    int len = Length(l);
+    int len = ListLength(l);
     printf("Length is: %d\n", len);
-    Print(l, "Length");
+    ListPrint(l, "Length");
 
     return 0;
 }

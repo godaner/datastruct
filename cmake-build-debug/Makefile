@@ -379,6 +379,36 @@ expressionvaluemain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.s
 .PHONY : expressionvaluemain.c.s
 
+linklist.obj: linklist.c.obj
+
+.PHONY : linklist.obj
+
+# target to build an object file
+linklist.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklistmain.c.dir\build.make CMakeFiles/linklistmain.c.dir/linklist.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/linklist.c.obj
+.PHONY : linklist.c.obj
+
+linklist.i: linklist.c.i
+
+.PHONY : linklist.i
+
+# target to preprocess a source file
+linklist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklistmain.c.dir\build.make CMakeFiles/linklistmain.c.dir/linklist.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/linklist.c.i
+.PHONY : linklist.c.i
+
+linklist.s: linklist.c.s
+
+.PHONY : linklist.s
+
+# target to generate assembly for a file
+linklist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklistmain.c.dir\build.make CMakeFiles/linklistmain.c.dir/linklist.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/linklist.c.s
+.PHONY : linklist.c.s
+
 linklistmain.obj: linklistmain.c.obj
 
 .PHONY : linklistmain.obj
@@ -440,6 +470,8 @@ lstack.obj: lstack.c.obj
 # target to build an object file
 lstack.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/lstack.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/lstack.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/lstack.c.obj
 .PHONY : lstack.c.obj
 
 lstack.i: lstack.c.i
@@ -449,6 +481,8 @@ lstack.i: lstack.c.i
 # target to preprocess a source file
 lstack.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/lstack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/lstack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/lstack.c.i
 .PHONY : lstack.c.i
 
 lstack.s: lstack.c.s
@@ -458,6 +492,8 @@ lstack.s: lstack.c.s
 # target to generate assembly for a file
 lstack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lstackmain.c.dir\build.make CMakeFiles/lstackmain.c.dir/lstack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\expressionvaluemain.c.dir\build.make CMakeFiles/expressionvaluemain.c.dir/lstack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/lstack.c.s
 .PHONY : lstack.c.s
 
 lstackmain.obj: lstackmain.c.obj
@@ -680,6 +716,9 @@ help:
 	@echo ... expressionvaluemain.obj
 	@echo ... expressionvaluemain.i
 	@echo ... expressionvaluemain.s
+	@echo ... linklist.obj
+	@echo ... linklist.i
+	@echo ... linklist.s
 	@echo ... linklistmain.obj
 	@echo ... linklistmain.i
 	@echo ... linklistmain.s

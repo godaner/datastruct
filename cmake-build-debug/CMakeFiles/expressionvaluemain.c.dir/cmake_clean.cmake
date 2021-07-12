@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/expressionvaluemain.c.dir/expressionvaluemain.c.obj"
+  "CMakeFiles/expressionvaluemain.c.dir/lstack.c.obj"
   "expressionvaluemain.c.exe"
   "expressionvaluemain.c.exe.manifest"
   "expressionvaluemain.c.pdb"
