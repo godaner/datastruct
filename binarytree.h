@@ -22,4 +22,6 @@ bool TreeInOrder(T *t, L *l);
 
 bool TreePostOrder(T *t, L *l);
 
+void TreePrint(T *t);
+
 #endif //DATASTRUCT_BINARYTREE_H

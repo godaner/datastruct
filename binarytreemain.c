@@ -31,7 +31,9 @@ int main() {
     l = ListCreate();
     TreePostOrder(t, l);
     ListPrint(l, "TreePostOrder");
-    
 
+
+    // TreePrint
+    TreePrint(t);
     return 0;
 }

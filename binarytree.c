@@ -46,3 +46,32 @@ bool TreePostOrder(T *t, L *l) {
 T *TreeCreate(ElemType *e, int size) {
     return createNode(e, size, 1);
 }
+
+void printTree(T *n, int type, int level) {
+    int i;
+
+    if (NULL == n)
+        return;
+
+    printTree(n->Rc, 2, level + 1);
+    switch (type) {
+        case 0:
+            printf("%2d\n", n->e);
+            break;
+        case 1:
+            for (i = 0; i < level; i++)
+                printf("\t");
+            printf("\\ %2d\n", n->e);
+            break;
+        case 2:
+            for (i = 0; i < level; i++)
+                printf("\t");
+            printf("/ %2d\n", n->e);
+            break;
+    }
+    printTree(n->Lc, 1, level + 1);
+}
+
+void TreePrint(T *t) {
+    printTree(t, 0, 0);
+}
