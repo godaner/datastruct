@@ -1,18 +1,10 @@
 #include <stdio.h>
 #include <u.h>
 #include <malloc.h>
+#include <lqueue.h>
 
-typedef struct LNode {
-    ElemType e;
-    struct LNode *next;
-} LNode, L;
-typedef struct LQueue {
-    LNode *front, *rear;
-} LQueue, Q;
-
-
-Bool Init(Q *q) {
-    LNode *n = malloc(sizeof(LNode) * 1);
+Bool QueueInit(Q *q) {
+    QueueLNode *n = malloc(sizeof(QueueLNode) * 1);
     n->next = NULL;
     n->e = 0;
     q->rear = q->front = n;
@@ -23,8 +15,8 @@ int QueueEmpty(Q *q) {
     return q->front == q->rear;
 }
 
-int Length(Q *q) {
-    LNode *c = q->front;
+int QueueLength(Q *q) {
+    QueueLNode *c = q->front;
     int i = 0;
     while (c->next) {
         c = c->next;
@@ -33,19 +25,19 @@ int Length(Q *q) {
     return i;
 }
 
-int Print(Q *q, char *prefix) {
+int QueuePrint(Q *q, char *prefix) {
     printf("%s==>\t", prefix);
-    LNode *c = q->front;
+    QueueLNode *c = q->front;
     while (c->next) {
         c = c->next;
         printf("%d, ", c->e);
     }
-    printf("==>\tlen is: %d\n", Length(q));
+    printf("==>\tlen is: %d\n", QueueLength(q));
     return 1;
 }
 
 Bool EnQueue(Q *q, ElemType e) {
-    LNode *n = malloc(sizeof(LNode));
+    QueueLNode *n = malloc(sizeof(QueueLNode));
     n->next = NULL;
     n->e = e;
     q->rear->next = n;
@@ -57,7 +49,7 @@ Bool DeQueue(Q *q, ElemType *e) {
     if (QueueEmpty(q)) {
         return false;
     }
-    LNode *n = q->front->next;
+    QueueLNode *n = q->front->next;
     *e = n->e;
     q->front->next = n->next;
     free(n);

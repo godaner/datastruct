@@ -13,6 +13,10 @@ stdio.h
 -
 linklist.h
 -
+lstack.h
+-
+lqueue.h
+-
 
 ../linklist.h
 stdio.h
@@ -22,11 +26,25 @@ malloc.h
 u.h
 -
 
-../u.h
-
-C:/Users/godaner/CLionProjects/datastruct/binarytree.c
-binarytree.h
+../lqueue.h
+stdio.h
 -
 u.h
+-
+malloc.h
+-
+
+../lstack.h
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+
+../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/binarytreemain.c
+binarytree.h
 -
 

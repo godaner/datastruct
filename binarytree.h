@@ -8,19 +8,29 @@
 #include <u.h>
 #include <stdio.h>
 #include <linklist.h>
+#include <lstack.h>
+#include <lqueue.h>
 
 typedef struct BinaryTreeNode {
     struct BinaryTreeNode *Lc, *Rc;
     ElemType e;
 } BinaryTreeNode, BinaryTree, T;
 
-T *TreeCreate(ElemType *e, int size);
+T *TreeCreateByArr(ElemType *e, int size);
 
 bool TreePreOrder(T *t, L *l);
 
 bool TreeInOrder(T *t, L *l);
 
 bool TreePostOrder(T *t, L *l);
+
+bool TreePreOrderByStack(T *t, S *s, L *l);
+
+bool TreeInOrderByStack(T *t, S *s, L *l);
+
+bool TreePostOrderByStack(T *t, S *s, L *l);
+
+bool TreeLevelOrder(T *t, Q *q, L *l);
 
 void TreePrint(T *t);
 

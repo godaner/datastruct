@@ -436,6 +436,36 @@ linklistmain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklistmain.c.dir\build.make CMakeFiles/linklistmain.c.dir/linklistmain.c.s
 .PHONY : linklistmain.c.s
 
+lqueue.obj: lqueue.c.obj
+
+.PHONY : lqueue.obj
+
+# target to build an object file
+lqueue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/lqueue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/lqueue.c.obj
+.PHONY : lqueue.c.obj
+
+lqueue.i: lqueue.c.i
+
+.PHONY : lqueue.i
+
+# target to preprocess a source file
+lqueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/lqueue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/lqueue.c.i
+.PHONY : lqueue.c.i
+
+lqueue.s: lqueue.c.s
+
+.PHONY : lqueue.s
+
+# target to generate assembly for a file
+lqueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lqueuemain.c.dir\build.make CMakeFiles/lqueuemain.c.dir/lqueue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/lqueue.c.s
+.PHONY : lqueue.c.s
+
 lqueuemain.obj: lqueuemain.c.obj
 
 .PHONY : lqueuemain.obj
@@ -722,6 +752,9 @@ help:
 	@echo ... linklistmain.obj
 	@echo ... linklistmain.i
 	@echo ... linklistmain.s
+	@echo ... lqueue.obj
+	@echo ... lqueue.i
+	@echo ... lqueue.s
 	@echo ... lqueuemain.obj
 	@echo ... lqueuemain.i
 	@echo ... lqueuemain.s

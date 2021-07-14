@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/godaner/CLionProjects/datastruct/binarytree.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/binarytreemain.c.dir/binarytree.c.obj"
   "C:/Users/godaner/CLionProjects/datastruct/binarytreemain.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj"
   "C:/Users/godaner/CLionProjects/datastruct/linklist.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/binarytreemain.c.dir/linklist.c.obj"
+  "C:/Users/godaner/CLionProjects/datastruct/lqueue.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/binarytreemain.c.dir/lqueue.c.obj"
   "C:/Users/godaner/CLionProjects/datastruct/lstack.c" "C:/Users/godaner/CLionProjects/datastruct/cmake-build-debug/CMakeFiles/binarytreemain.c.dir/lstack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

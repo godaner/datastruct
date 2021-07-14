@@ -504,6 +504,14 @@
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/linklistmain.c">
 			<Option target="linklistmain.c"/>
 		</Unit>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lqueue.c">
+			<Option target="lqueuemain.c"/>
+			<Option target="binarytreemain.c"/>
+		</Unit>
+		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lqueue.h">
+			<Option target="lqueuemain.c"/>
+			<Option target="binarytreemain.c"/>
+		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lqueuemain.c">
 			<Option target="lqueuemain.c"/>
 		</Unit>

@@ -13,7 +13,7 @@
 int main() {
     // TreeCreate
     int es[] = {1, 2, 3, 4, 0, 5, 6, 0, 7};
-    T *t = TreeCreate(es, sizeof(es) / sizeof(es[0]));
+    T *t = TreeCreateByArr(es, sizeof(es) / sizeof(es[0]));
     L *l = ListCreate();
 
     // PreOrder
@@ -32,6 +32,27 @@ int main() {
     TreePostOrder(t, l);
     ListPrint(l, "TreePostOrder");
 
+    S s;
+
+
+    // TreePreOrderByStack
+    l = ListCreate();
+    StackInit(&s);
+    TreePreOrderByStack(t, &s, l);
+    ListPrint(l, "TreePreOrderByStack");
+
+    // TreeInOrderByStack
+    l = ListCreate();
+    StackInit(&s);
+    TreeInOrderByStack(t, &s, l);
+    ListPrint(l, "TreeInOrderByStack");
+
+    Q q;
+    // TreeLevelOrder
+    l = ListCreate();
+    QueueInit(&q);
+    TreeLevelOrder(t, &q, l);
+    ListPrint(l, "TreeLevelOrder");
 
     // TreePrint
     TreePrint(t);

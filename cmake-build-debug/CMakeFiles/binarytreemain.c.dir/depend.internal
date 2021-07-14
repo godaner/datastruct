@@ -4,17 +4,25 @@
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj
  ../binarytree.h
  ../linklist.h
+ ../lqueue.h
+ ../lstack.h
  ../u.h
  C:/Users/godaner/CLionProjects/datastruct/binarytree.c
 CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj
  ../binarytree.h
  ../linklist.h
+ ../lqueue.h
+ ../lstack.h
  ../u.h
  C:/Users/godaner/CLionProjects/datastruct/binarytreemain.c
 CMakeFiles/binarytreemain.c.dir/linklist.c.obj
  ../linklist.h
  ../u.h
  C:/Users/godaner/CLionProjects/datastruct/linklist.c
+CMakeFiles/binarytreemain.c.dir/lqueue.c.obj
+ ../lqueue.h
+ ../u.h
+ C:/Users/godaner/CLionProjects/datastruct/lqueue.c
 CMakeFiles/binarytreemain.c.dir/lstack.c.obj
  ../lstack.h
  ../u.h

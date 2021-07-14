@@ -10,10 +10,10 @@ add_executable(dlinklistmain.c dlinklistmain.c)
 add_executable(sqstackmain.c sqstackmain.c)
 add_executable(lstackmain.c lstackmain.c lstack.c)
 add_executable(sqqueuemain.c sqqueuemain.c)
-add_executable(lqueuemain.c lqueuemain.c)
+add_executable(lqueuemain.c lqueuemain.c lqueue.c)
 add_executable(validatebracketmain.c validatebracketmain.c)
 add_executable(expressionvaluemain.c lstack.c expressionvaluemain.c)
 add_executable(sqstringmain.c sqstringmain.c sqstring.c)
-add_executable(binarytreemain.c binarytreemain.c linklist.c lstack.c binarytree.c)
+add_executable(binarytreemain.c binarytreemain.c linklist.c lstack.c lqueue.c binarytree.c)
 
 

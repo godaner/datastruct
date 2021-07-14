@@ -1,7 +1,7 @@
 #include <binarytree.h>
 #include <u.h>
 
-T *createNode(const ElemType *e, int size, int cNum) {
+T *treeCreateByArr(const ElemType *e, int size, int cNum) {
     if (cNum > size) {
         return NULL;
     }
@@ -10,9 +10,14 @@ T *createNode(const ElemType *e, int size, int cNum) {
     }
     T *node = malloc(sizeof(T));
     node->e = e[cNum - 1];
-    node->Lc = createNode(e, size, cNum * 2);
-    node->Rc = createNode(e, size, cNum * 2 + 1);
+    node->Lc = treeCreateByArr(e, size, cNum * 2);
+    node->Rc = treeCreateByArr(e, size, cNum * 2 + 1);
     return node;
+}
+
+// TreeCreateByArr 通过其顺序储存建立反向建立
+T *TreeCreateByArr(ElemType *e, int size) {
+    return treeCreateByArr(e, size, 1);
 }
 
 bool TreePreOrder(T *t, L *l) {
@@ -42,9 +47,58 @@ bool TreePostOrder(T *t, L *l) {
     ListInsert(l, t->e, ListLength(l) + 1);
 }
 
-// TreeCreate 通过其顺序储存建立反向建立
-T *TreeCreate(ElemType *e, int size) {
-    return createNode(e, size, 1);
+
+bool TreePreOrderByStack(T *t, S *s, L *l) {
+    BinaryTreeNode *cn = t;
+    while (cn || !StackEmpty(s)) {
+        if (cn) {
+            ListInsert(l, cn->e, ListLength(l) + 1);
+            StackPush(s, (ElemType) cn);
+            cn = cn->Lc;
+        } else {
+            StackPop(s, &cn);
+            cn = cn->Rc;
+        }
+    }
+    return true;
+}
+
+bool TreeInOrderByStack(T *t, S *s, L *l) {
+    BinaryTreeNode *cn = t;
+    while (cn || !StackEmpty(s)) {
+        if (cn) {
+            StackPush(s, (ElemType) cn);
+            cn = cn->Lc;
+        } else {
+            StackPop(s, &cn);
+            ListInsert(l, cn->e, ListLength(l) + 1);
+            cn = cn->Rc;
+        }
+    }
+    return true;
+}
+
+// todo
+bool TreePostOrderByStack(T *t, S *s, L *l) {
+    return false;
+}
+
+bool TreeLevelOrder(T *t, Q *q, L *l) {
+    T *tmp;
+    EnQueue(q, (ElemType) t);
+    while (!QueueEmpty(q)) {
+        DeQueue(q, &tmp);
+        if (tmp) {
+            if (tmp->Lc) {
+                EnQueue(q, (ElemType) tmp->Lc);
+            }
+            if (tmp->Rc) {
+                EnQueue(q, (ElemType) tmp->Rc);
+            }
+        }
+        ListInsert(l, tmp->e, ListLength(l) + 1);
+    }
+    return true;
 }
 
 void printTree(T *n, int type, int level) {

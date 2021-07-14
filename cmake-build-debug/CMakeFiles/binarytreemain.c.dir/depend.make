@@ -3,17 +3,25 @@
 
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../binarytree.h
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../linklist.h
+CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../lqueue.h
+CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../lstack.h
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../u.h
 CMakeFiles/binarytreemain.c.dir/binarytree.c.obj: ../binarytree.c
 
 CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj: ../binarytree.h
 CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj: ../linklist.h
+CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj: ../lqueue.h
+CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj: ../lstack.h
 CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj: ../u.h
 CMakeFiles/binarytreemain.c.dir/binarytreemain.c.obj: ../binarytreemain.c
 
 CMakeFiles/binarytreemain.c.dir/linklist.c.obj: ../linklist.h
 CMakeFiles/binarytreemain.c.dir/linklist.c.obj: ../u.h
 CMakeFiles/binarytreemain.c.dir/linklist.c.obj: ../linklist.c
+
+CMakeFiles/binarytreemain.c.dir/lqueue.c.obj: ../lqueue.h
+CMakeFiles/binarytreemain.c.dir/lqueue.c.obj: ../u.h
+CMakeFiles/binarytreemain.c.dir/lqueue.c.obj: ../lqueue.c
 
 CMakeFiles/binarytreemain.c.dir/lstack.c.obj: ../lstack.h
 CMakeFiles/binarytreemain.c.dir/lstack.c.obj: ../u.h
