@@ -18,6 +18,8 @@ typedef struct BinaryTreeNode {
 
 T *TreeCreateByArr(ElemType *e, int size);
 
+T *TreeCreateByPreAndIn(ElemType *pre, ElemType *in, int size);
+
 bool TreePreOrder(T *t, L *l);
 
 bool TreeInOrder(T *t, L *l);

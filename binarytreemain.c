@@ -55,6 +55,12 @@ int main() {
     TreeLevelOrder(t, &q, l);
     ListPrint(l, "TreeLevelOrder");
 
+
+    // TreeLevelOrder
+    int pre[] = {1, 2, 4, 7, 3, 5, 6};
+    int in[] = {4, 7, 2, 1, 5, 3, 6};
+    t = TreeCreateByPreAndIn(pre, in, 7);
+
     // TreePrint
     TreePrint(t);
     return 0;
