@@ -516,11 +516,13 @@
 			<Option target="lqueuemain.c"/>
 		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstack.c">
+			<Option target="validatebracketmain.c"/>
 			<Option target="lstackmain.c"/>
 			<Option target="expressionvaluemain.c"/>
 			<Option target="binarytreemain.c"/>
 		</Unit>
 		<Unit filename="C:/Users/godaner/CLionProjects/datastruct/lstack.h">
+			<Option target="validatebracketmain.c"/>
 			<Option target="lstackmain.c"/>
 			<Option target="expressionvaluemain.c"/>
 			<Option target="binarytreemain.c"/>

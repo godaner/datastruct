@@ -3,7 +3,7 @@
 
 int main() {
     S s;
-    Init(&s);
+    StackInit(&s);
     int r = 0;
     char *exp = "1234-*+56/-";
     bool suc = ExpressionValue(&s, exp, &r);

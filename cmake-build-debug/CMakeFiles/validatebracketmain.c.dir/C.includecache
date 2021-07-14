@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../lstack.c
+../lstack.h
 stdio.h
 -
 u.h
@@ -19,9 +19,19 @@ malloc.h
 ../validatebracket.c
 u.h
 -
-lstack.c
+lstack.h
 -
 string.h
+-
+
+C:/Users/godaner/CLionProjects/datastruct/lstack.c
+stdio.h
+-
+u.h
+-
+malloc.h
+-
+lstack.h
 -
 
 C:/Users/godaner/CLionProjects/datastruct/validatebracketmain.c

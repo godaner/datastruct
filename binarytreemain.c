@@ -8,7 +8,8 @@
  4   5  6
   \
    7
-
+TreePreOrder==> 1, 2, 4, 7, 3, 5, 6
+TreeInOrder==>  4, 7, 2, 1, 5, 3, 6
  */
 int main() {
     // TreeCreate

@@ -5,7 +5,7 @@
 
 int main() {
     S s;
-    Init(&s);
+    StackInit(&s);
     char *cs = "{({}[[][]]{})}";
     bool r = ValidateBracket(&s, cs);
     printf("%d\n", r);

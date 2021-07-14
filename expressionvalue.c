@@ -8,34 +8,34 @@ bool ExpressionValue(S *s, char *expression, int *r) {
     for (int i = 0; i < strlen(expression); ++i) {
         e = expression[i];
         if (e >= '0' && e <= '9') {
-            Push(s, e - 48);
+            StackPush(s, e - 48);
             continue;
         }
         if (!(e == '+' || e == '-' || e == '*' || e == '/' || e == '%')) {
             return false;
         }
-        if (!Pop(s, &opb)) {
+        if (!StackPop(s, &opb)) {
             return false;
         }
-        if (!Pop(s, &opa)) {
+        if (!StackPop(s, &opa)) {
             return false;
         }
         if (e == '+') {
-            Push(s, opa + opb);
+            StackPush(s, opa + opb);
         }
         if (e == '-') {
-            Push(s, opa - opb);
+            StackPush(s, opa - opb);
         }
         if (e == '*') {
-            Push(s, opa * opb);
+            StackPush(s, opa * opb);
         }
         if (e == '/') {
-            Push(s, opa / opb);
+            StackPush(s, opa / opb);
         }
         if (e == '%') {
-            Push(s, opa % opb);
+            StackPush(s, opa % opb);
         }
     }
-    return Pop(s, r);
+    return StackPop(s, r);
 }
 

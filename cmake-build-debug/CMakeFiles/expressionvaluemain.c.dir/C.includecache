@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../expressionvalue.c
+u.h
+-
+lstack.h
+-
+string.h
+-
+
 ../lstack.h
 stdio.h
 -
@@ -15,6 +23,12 @@ malloc.h
 -
 
 ../u.h
+
+C:/Users/godaner/CLionProjects/datastruct/expressionvaluemain.c
+stdio.h
+-
+expressionvalue.c
+-
 
 C:/Users/godaner/CLionProjects/datastruct/lstack.c
 stdio.h
