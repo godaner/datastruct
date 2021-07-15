@@ -73,6 +73,7 @@ bool TreeInOrder(T *t, L *l) {
     TreeInOrder(t->Rc, l);
 }
 
+// !!!
 bool TreePostOrder(T *t, L *l) {
     if (!t || !l) {
         return false;
@@ -80,6 +81,30 @@ bool TreePostOrder(T *t, L *l) {
     TreePostOrder(t->Lc, l);
     TreePostOrder(t->Rc, l);
     ListInsert(l, t->e, ListLength(l) + 1);
+}
+
+void treeInThread(T *pre, T *p) {
+    if (!p) {
+        return;
+    }
+    // to left
+    treeInThread(pre, p->Lc); // !!! not treeInThread(p, p->Lc);
+    // visit
+    if (!p->Lc) {
+        p->LTag = 1;
+        p->Lc = pre;
+    }
+    if (pre && !pre->Rc) {
+        pre->RTag = 1;
+        pre->Rc = p;
+    }
+    // to right
+    treeInThread(p, p->Rc);
+}
+
+// todo
+void TreeInThread(T *t) {
+    treeInThread(t, NULL);
 }
 
 

@@ -63,5 +63,10 @@ int main() {
 
     // TreePrint
     TreePrint(t);
+
+
+    // TreeLevelOrder
+    TreeInThread(t);
+
     return 0;
 }

@@ -12,6 +12,7 @@
 #include <lqueue.h>
 
 typedef struct BinaryTreeNode {
+    int LTag, RTag;
     struct BinaryTreeNode *Lc, *Rc;
     ElemType e;
 } BinaryTreeNode, BinaryTree, T;
@@ -31,6 +32,8 @@ bool TreePreOrderByStack(T *t, S *s, L *l);
 bool TreeInOrderByStack(T *t, S *s, L *l);
 
 bool TreePostOrderByStack(T *t, S *s, L *l);
+
+void TreeInThread(T *t);
 
 bool TreeLevelOrder(T *t, Q *q, L *l);
 
