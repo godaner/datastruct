@@ -15,5 +15,6 @@ add_executable(validatebracketmain.c lstack.c validatebracketmain.c)
 add_executable(expressionvaluemain.c lstack.c expressionvaluemain.c)
 add_executable(sqstringmain.c sqstringmain.c sqstring.c)
 add_executable(binarytreemain.c binarytreemain.c linklist.c lstack.c lqueue.c binarytree.c)
+add_executable(bstmain.c bst.c bstmain.c)
 
 

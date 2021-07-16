@@ -271,6 +271,19 @@ binarytreemain.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/build
 .PHONY : binarytreemain.c/fast
 
+#=============================================================================
+# Target rules for targets named bstmain.c
+
+# Build rule for target.
+bstmain.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bstmain.c
+.PHONY : bstmain.c
+
+# fast build rule for target.
+bstmain.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/build
+.PHONY : bstmain.c/fast
+
 binarytree.obj: binarytree.c.obj
 
 .PHONY : binarytree.obj
@@ -324,6 +337,60 @@ binarytreemain.s: binarytreemain.c.s
 binarytreemain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarytreemain.c.dir\build.make CMakeFiles/binarytreemain.c.dir/binarytreemain.c.s
 .PHONY : binarytreemain.c.s
+
+bst.obj: bst.c.obj
+
+.PHONY : bst.obj
+
+# target to build an object file
+bst.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/bst.c.obj
+.PHONY : bst.c.obj
+
+bst.i: bst.c.i
+
+.PHONY : bst.i
+
+# target to preprocess a source file
+bst.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/bst.c.i
+.PHONY : bst.c.i
+
+bst.s: bst.c.s
+
+.PHONY : bst.s
+
+# target to generate assembly for a file
+bst.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/bst.c.s
+.PHONY : bst.c.s
+
+bstmain.obj: bstmain.c.obj
+
+.PHONY : bstmain.obj
+
+# target to build an object file
+bstmain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/bstmain.c.obj
+.PHONY : bstmain.c.obj
+
+bstmain.i: bstmain.c.i
+
+.PHONY : bstmain.i
+
+# target to preprocess a source file
+bstmain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/bstmain.c.i
+.PHONY : bstmain.c.i
+
+bstmain.s: bstmain.c.s
+
+.PHONY : bstmain.s
+
+# target to generate assembly for a file
+bstmain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bstmain.c.dir\build.make CMakeFiles/bstmain.c.dir/bstmain.c.s
+.PHONY : bstmain.c.s
 
 dlinklistmain.obj: dlinklistmain.c.obj
 
@@ -727,6 +794,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... binarytreemain.c
+	@echo ... bstmain.c
 	@echo ... dlinklistmain.c
 	@echo ... expressionvaluemain.c
 	@echo ... linklistmain.c
@@ -743,6 +811,12 @@ help:
 	@echo ... binarytreemain.obj
 	@echo ... binarytreemain.i
 	@echo ... binarytreemain.s
+	@echo ... bst.obj
+	@echo ... bst.i
+	@echo ... bst.s
+	@echo ... bstmain.obj
+	@echo ... bstmain.i
+	@echo ... bstmain.s
 	@echo ... dlinklistmain.obj
 	@echo ... dlinklistmain.i
 	@echo ... dlinklistmain.s
